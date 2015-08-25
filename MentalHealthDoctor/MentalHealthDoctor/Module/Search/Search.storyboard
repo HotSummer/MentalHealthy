@@ -4,32 +4,32 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Search View Controller-->
-        <scene sceneID="FlF-1L-HFt">
+        <!--Search Table View Controller-->
+        <scene sceneID="bPf-Da-buK">
             <objects>
-                <viewController storyboardIdentifier="MHDSearchViewControllerStoryboardID" id="YTw-QV-fgf" customClass="MHDSearchViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zWs-ix-FUF"/>
-                        <viewControllerLayoutGuide type="bottom" id="P9F-Wp-7jV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7tz-H7-YPa">
+                <tableViewController storyboardIdentifier="MHDSearchTableViewControllerStoryboardId" id="Vp4-mn-EaC" customClass="MHDSearchTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="beh-AB-J5b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-zo-f4r">
-                                <rect key="frame" x="126" y="273" width="81" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIndentifier" id="FI7-zK-7fd">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FI7-zK-7fd" id="Ajr-af-7m2">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Vp4-mn-EaC" id="E1K-z1-v7X"/>
+                            <outlet property="delegate" destination="Vp4-mn-EaC" id="fXZ-dx-lJs"/>
+                        </connections>
+                    </tableView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RK5-qg-okD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIP-3m-dQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="293"/>
+            <point key="canvasLocation" x="110" y="264"/>
         </scene>
     </scenes>
 </document>

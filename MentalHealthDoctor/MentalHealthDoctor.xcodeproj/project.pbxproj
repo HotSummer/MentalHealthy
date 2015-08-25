@@ -14,16 +14,15 @@
 		7976ECC01B838F93005FC141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7976ECBF1B838F93005FC141 /* Images.xcassets */; };
 		7976ECC31B838F93005FC141 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7976ECC11B838F93005FC141 /* LaunchScreen.xib */; };
 		7976ECCF1B838F93005FC141 /* MentalHealthDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECCE1B838F93005FC141 /* MentalHealthDoctorTests.m */; };
+		797DF2A51B8CA75700617C58 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797DF2A21B8CA75700617C58 /* Activity.storyboard */; };
+		797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */; };
+		797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */; };
+		797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */; };
 		79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3E4E71B8A0E230077EFA3 /* Common.framework */; };
 		79D3E4F11B8A13990077EFA3 /* MHDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */; };
 		79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4F51B8A15160077EFA3 /* Search.storyboard */; };
-		79D3E4FD1B8A16210077EFA3 /* MHDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E4FC1B8A16210077EFA3 /* MHDSearchViewController.m */; };
 		79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */; };
 		79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */; };
-		79D3E5041B8A16D20077EFA3 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E5031B8A16D20077EFA3 /* Activity.storyboard */; };
-		79D3E5071B8A171A0077EFA3 /* MHDActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E5061B8A171A0077EFA3 /* MHDActivityViewController.m */; };
-		79D3E5091B8A174B0077EFA3 /* Collected.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E5081B8A174B0077EFA3 /* Collected.storyboard */; };
-		79D3E50C1B8A17720077EFA3 /* MHDCollectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E50B1B8A17720077EFA3 /* MHDCollectedViewController.m */; };
 		814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,21 +51,20 @@
 		7976ECC81B838F93005FC141 /* MentalHealthDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECCD1B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECCE1B838F93005FC141 /* MentalHealthDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalHealthDoctorTests.m; sourceTree = "<group>"; };
+		797DF2A21B8CA75700617C58 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		797DF2A31B8CA75700617C58 /* MHDActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityViewController.h; sourceTree = "<group>"; };
+		797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityViewController.m; sourceTree = "<group>"; };
+		797DF2AD1B8CB76000617C58 /* MHDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableViewController.h; sourceTree = "<group>"; };
+		797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewController.m; sourceTree = "<group>"; };
+		797DF2B01B8CB7A200617C58 /* MHDSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchTableViewController.h; sourceTree = "<group>"; };
+		797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchTableViewController.m; sourceTree = "<group>"; };
 		79D3E4E71B8A0E230077EFA3 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = Common/Common/buildProducts/Common.framework; sourceTree = "<group>"; };
 		79D3E4EF1B8A13990077EFA3 /* MHDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabBarViewController.h; sourceTree = "<group>"; };
 		79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabBarViewController.m; sourceTree = "<group>"; };
 		79D3E4F51B8A15160077EFA3 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
-		79D3E4FB1B8A16210077EFA3 /* MHDSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchViewController.h; sourceTree = "<group>"; };
-		79D3E4FC1B8A16210077EFA3 /* MHDSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchViewController.m; sourceTree = "<group>"; };
 		79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		79D3E5001B8A167C0077EFA3 /* MHDMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineViewController.h; sourceTree = "<group>"; };
 		79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineViewController.m; sourceTree = "<group>"; };
-		79D3E5031B8A16D20077EFA3 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
-		79D3E5051B8A171A0077EFA3 /* MHDActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityViewController.h; sourceTree = "<group>"; };
-		79D3E5061B8A171A0077EFA3 /* MHDActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityViewController.m; sourceTree = "<group>"; };
-		79D3E5081B8A174B0077EFA3 /* Collected.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Collected.storyboard; sourceTree = "<group>"; };
-		79D3E50A1B8A17720077EFA3 /* MHDCollectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCollectedViewController.h; sourceTree = "<group>"; };
-		79D3E50B1B8A17720077EFA3 /* MHDCollectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDCollectedViewController.m; sourceTree = "<group>"; };
 		9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +112,7 @@
 		7976ECB11B838F93005FC141 /* MentalHealthDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				797DF2AB1B8CB71F00617C58 /* Base */,
 				79D3E4EC1B8A13300077EFA3 /* Module */,
 				7976ECB61B838F93005FC141 /* AppDelegate.h */,
 				7976ECB71B838F93005FC141 /* AppDelegate.m */,
@@ -153,11 +152,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		797DF2A11B8CA75700617C58 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				797DF2A21B8CA75700617C58 /* Activity.storyboard */,
+				797DF2A31B8CA75700617C58 /* MHDActivityViewController.h */,
+				797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		797DF2AB1B8CB71F00617C58 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				797DF2AC1B8CB74600617C58 /* UI */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		797DF2AC1B8CB74600617C58 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				797DF2AD1B8CB76000617C58 /* MHDTableViewController.h */,
+				797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		79D3E4EC1B8A13300077EFA3 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				79D3E4F41B8A14DD0077EFA3 /* Collected */,
-				79D3E4F31B8A14D70077EFA3 /* Activity */,
+				797DF2A11B8CA75700617C58 /* Activity */,
 				79D3E4F21B8A14CF0077EFA3 /* Mine */,
 				79D3E4EE1B8A13990077EFA3 /* Main */,
 				79D3E4ED1B8A13300077EFA3 /* Search */,
@@ -169,8 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				79D3E4F51B8A15160077EFA3 /* Search.storyboard */,
-				79D3E4FB1B8A16210077EFA3 /* MHDSearchViewController.h */,
-				79D3E4FC1B8A16210077EFA3 /* MHDSearchViewController.m */,
+				797DF2B01B8CB7A200617C58 /* MHDSearchTableViewController.h */,
+				797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -192,26 +217,6 @@
 				79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */,
 			);
 			path = Mine;
-			sourceTree = "<group>";
-		};
-		79D3E4F31B8A14D70077EFA3 /* Activity */ = {
-			isa = PBXGroup;
-			children = (
-				79D3E5031B8A16D20077EFA3 /* Activity.storyboard */,
-				79D3E5051B8A171A0077EFA3 /* MHDActivityViewController.h */,
-				79D3E5061B8A171A0077EFA3 /* MHDActivityViewController.m */,
-			);
-			path = Activity;
-			sourceTree = "<group>";
-		};
-		79D3E4F41B8A14DD0077EFA3 /* Collected */ = {
-			isa = PBXGroup;
-			children = (
-				79D3E5081B8A174B0077EFA3 /* Collected.storyboard */,
-				79D3E50A1B8A17720077EFA3 /* MHDCollectedViewController.h */,
-				79D3E50B1B8A17720077EFA3 /* MHDCollectedViewController.m */,
-			);
-			path = Collected;
 			sourceTree = "<group>";
 		};
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
@@ -315,12 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7976ECBE1B838F93005FC141 /* Main.storyboard in Resources */,
-				79D3E5041B8A16D20077EFA3 /* Activity.storyboard in Resources */,
+				797DF2A51B8CA75700617C58 /* Activity.storyboard in Resources */,
 				7976ECC31B838F93005FC141 /* LaunchScreen.xib in Resources */,
 				79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */,
 				79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
-				79D3E5091B8A174B0077EFA3 /* Collected.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,11 +378,11 @@
 				79D3E4F11B8A13990077EFA3 /* MHDTabBarViewController.m in Sources */,
 				79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* ViewController.m in Sources */,
-				79D3E4FD1B8A16210077EFA3 /* MHDSearchViewController.m in Sources */,
+				797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
-				79D3E5071B8A171A0077EFA3 /* MHDActivityViewController.m in Sources */,
-				79D3E50C1B8A17720077EFA3 /* MHDCollectedViewController.m in Sources */,
+				797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
+				797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

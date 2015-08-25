@@ -1,18 +1,18 @@
 //
-//  MHDCollectedViewController.m
+//  MHDTableViewController.m
 //  MentalHealthDoctor
 //
-//  Created by zbq on 15-8-23.
+//  Created by zbq on 15-8-25.
 //  Copyright (c) 2015年 zbq. All rights reserved.
 //
 
-#import "MHDCollectedViewController.h"
+#import "MHDTableViewController.h"
 
-@interface MHDCollectedViewController ()
+@interface MHDTableViewController ()
 
 @end
 
-@implementation MHDCollectedViewController
+@implementation MHDTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
