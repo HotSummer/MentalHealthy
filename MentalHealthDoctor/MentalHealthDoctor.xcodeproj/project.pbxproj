@@ -18,6 +18,17 @@
 		797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */; };
 		797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */; };
 		797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */; };
+		79AF9EC31BB3136800D6AC08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC21BB3136800D6AC08 /* CoreData.framework */; };
+		79AF9EC51BB3138100D6AC08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC41BB3138100D6AC08 /* SystemConfiguration.framework */; };
+		79AF9EC71BB3138800D6AC08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC61BB3138800D6AC08 /* CFNetwork.framework */; };
+		79AF9EC91BB3138E00D6AC08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC81BB3138E00D6AC08 /* CoreGraphics.framework */; };
+		79AF9ECB1BB3139800D6AC08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ECA1BB3139800D6AC08 /* UIKit.framework */; };
+		79AF9ECD1BB313A300D6AC08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ECC1BB313A300D6AC08 /* Foundation.framework */; };
+		79AF9ECF1BB313AA00D6AC08 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ECE1BB313AA00D6AC08 /* CoreLocation.framework */; };
+		79AF9ED11BB313B200D6AC08 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED01BB313B200D6AC08 /* Security.framework */; };
+		79AF9ED31BB313BD00D6AC08 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */; };
+		79AF9ED51BB313C300D6AC08 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED41BB313C300D6AC08 /* libxml2.dylib */; };
+		79AF9ED71BB313D700D6AC08 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED61BB313D600D6AC08 /* libresolv.dylib */; };
 		79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3E4E71B8A0E230077EFA3 /* Common.framework */; };
 		79D3E4F11B8A13990077EFA3 /* MHDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */; };
 		79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4F51B8A15160077EFA3 /* Search.storyboard */; };
@@ -58,6 +69,17 @@
 		797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewController.m; sourceTree = "<group>"; };
 		797DF2B01B8CB7A200617C58 /* MHDSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchTableViewController.h; sourceTree = "<group>"; };
 		797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchTableViewController.m; sourceTree = "<group>"; };
+		79AF9EC21BB3136800D6AC08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79AF9EC41BB3138100D6AC08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79AF9EC61BB3138800D6AC08 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		79AF9EC81BB3138E00D6AC08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79AF9ECA1BB3139800D6AC08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79AF9ECC1BB313A300D6AC08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79AF9ECE1BB313AA00D6AC08 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79AF9ED01BB313B200D6AC08 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		79AF9ED41BB313C300D6AC08 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		79AF9ED61BB313D600D6AC08 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		79D3E4E71B8A0E230077EFA3 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = Common/Common/buildProducts/Common.framework; sourceTree = "<group>"; };
 		79D3E4EF1B8A13990077EFA3 /* MHDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabBarViewController.h; sourceTree = "<group>"; };
 		79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabBarViewController.m; sourceTree = "<group>"; };
@@ -74,6 +96,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AF9ED71BB313D700D6AC08 /* libresolv.dylib in Frameworks */,
+				79AF9ED51BB313C300D6AC08 /* libxml2.dylib in Frameworks */,
+				79AF9ED31BB313BD00D6AC08 /* libxml2.2.dylib in Frameworks */,
+				79AF9ED11BB313B200D6AC08 /* Security.framework in Frameworks */,
+				79AF9ECF1BB313AA00D6AC08 /* CoreLocation.framework in Frameworks */,
+				79AF9ECD1BB313A300D6AC08 /* Foundation.framework in Frameworks */,
+				79AF9ECB1BB3139800D6AC08 /* UIKit.framework in Frameworks */,
+				79AF9EC91BB3138E00D6AC08 /* CoreGraphics.framework in Frameworks */,
+				79AF9EC71BB3138800D6AC08 /* CFNetwork.framework in Frameworks */,
+				79AF9EC51BB3138100D6AC08 /* SystemConfiguration.framework in Frameworks */,
+				79AF9EC31BB3136800D6AC08 /* CoreData.framework in Frameworks */,
 				814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */,
 				79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */,
 			);
@@ -222,6 +255,17 @@
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79AF9ED61BB313D600D6AC08 /* libresolv.dylib */,
+				79AF9ED41BB313C300D6AC08 /* libxml2.dylib */,
+				79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */,
+				79AF9ED01BB313B200D6AC08 /* Security.framework */,
+				79AF9ECE1BB313AA00D6AC08 /* CoreLocation.framework */,
+				79AF9ECC1BB313A300D6AC08 /* Foundation.framework */,
+				79AF9ECA1BB3139800D6AC08 /* UIKit.framework */,
+				79AF9EC81BB3138E00D6AC08 /* CoreGraphics.framework */,
+				79AF9EC61BB3138800D6AC08 /* CFNetwork.framework */,
+				79AF9EC41BB3138100D6AC08 /* SystemConfiguration.framework */,
+				79AF9EC21BB3136800D6AC08 /* CoreData.framework */,
 				79D3E4E71B8A0E230077EFA3 /* Common.framework */,
 				5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */,
 			);
