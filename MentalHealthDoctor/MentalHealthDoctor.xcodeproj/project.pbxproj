@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79674CE61BB45701005E560F /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79674CE51BB45701005E560F /* Test.storyboard */; };
+		79674CE91BB4578E005E560F /* MHDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79674CE81BB4578E005E560F /* MHDTestViewController.m */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
 		7976ECBB1B838F93005FC141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* ViewController.m */; };
@@ -49,6 +51,9 @@
 
 /* Begin PBXFileReference section */
 		5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79674CE51BB45701005E560F /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		79674CE71BB4578E005E560F /* MHDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestViewController.h; sourceTree = "<group>"; };
+		79674CE81BB4578E005E560F /* MHDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTestViewController.m; sourceTree = "<group>"; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECB31B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECB41B838F93005FC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79674CE41BB456EC005E560F /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				79674CE51BB45701005E560F /* Test.storyboard */,
+				79674CE71BB4578E005E560F /* MHDTestViewController.h */,
+				79674CE81BB4578E005E560F /* MHDTestViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		7976ECA61B838F93005FC141 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +230,7 @@
 		79D3E4EC1B8A13300077EFA3 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				79674CE41BB456EC005E560F /* Test */,
 				797DF2A11B8CA75700617C58 /* Activity */,
 				79D3E4F21B8A14CF0077EFA3 /* Mine */,
 				79D3E4EE1B8A13990077EFA3 /* Main */,
@@ -368,6 +384,7 @@
 				7976ECC31B838F93005FC141 /* LaunchScreen.xib in Resources */,
 				79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */,
 				79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */,
+				79674CE61BB45701005E560F /* Test.storyboard in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +444,7 @@
 				797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
 				797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */,
+				79674CE91BB4578E005E560F /* MHDTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
