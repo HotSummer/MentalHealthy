@@ -37,6 +37,7 @@
 		79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */; };
 		79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */; };
 		814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */; };
+		A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92A71331BC12743000034E9 /* MHDTabbarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		79D3E5001B8A167C0077EFA3 /* MHDMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineViewController.h; sourceTree = "<group>"; };
 		79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineViewController.m; sourceTree = "<group>"; };
 		9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A92A71321BC12743000034E9 /* MHDTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabbarView.h; sourceTree = "<group>"; };
+		A92A71331BC12743000034E9 /* MHDTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabbarView.m; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +224,8 @@
 		797DF2AC1B8CB74600617C58 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A92A71321BC12743000034E9 /* MHDTabbarView.h */,
+				A92A71331BC12743000034E9 /* MHDTabbarView.m */,
 				797DF2AD1B8CB76000617C58 /* MHDTableViewController.h */,
 				797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */,
 			);
@@ -440,6 +445,7 @@
 				79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* ViewController.m in Sources */,
 				797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */,
+				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
