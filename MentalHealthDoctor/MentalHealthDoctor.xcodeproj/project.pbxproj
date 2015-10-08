@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		628822221BC63C5900904B90 /* MHDBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822211BC63C5900904B90 /* MHDBasicController.m */; };
-		6288222D1BC641E000904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222C1BC641E000904B90 /* MHDActivityController.m */; };
 		628822301BC6538100904B90 /* MHDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222F1BC6538100904B90 /* MHDTestController.m */; };
 		628822331BC6538D00904B90 /* MHDFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822321BC6538D00904B90 /* MHDFindController.m */; };
 		628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822351BC653AD00904B90 /* MHDFindDocController.m */; };
 		628822391BC653C500904B90 /* MHDMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822381BC653C500904B90 /* MHDMineController.m */; };
-		6288223C1BC653DD00904B90 /* MHDActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */; };
 		628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223E1BC658E000904B90 /* sb_nav_back@2x.png */; };
 		628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */; };
+		628822431BC65ED700904B90 /* SBBarModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628822421BC65ED700904B90 /* SBBarModule.framework */; };
+		6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822461BC65F3200904B90 /* MHDActivityDetailController.m */; };
+		6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822491BC65F3200904B90 /* MHDActivityController.m */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
 		7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* MHDTransitionController.m */; };
@@ -51,8 +52,6 @@
 		5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		628822201BC63C5900904B90 /* MHDBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDBasicController.h; sourceTree = "<group>"; };
 		628822211BC63C5900904B90 /* MHDBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBasicController.m; sourceTree = "<group>"; };
-		6288222B1BC641E000904B90 /* MHDActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityController.h; sourceTree = "<group>"; };
-		6288222C1BC641E000904B90 /* MHDActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityController.m; sourceTree = "<group>"; };
 		6288222E1BC6538100904B90 /* MHDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestController.h; sourceTree = "<group>"; };
 		6288222F1BC6538100904B90 /* MHDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTestController.m; sourceTree = "<group>"; };
 		628822311BC6538D00904B90 /* MHDFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDFindController.h; sourceTree = "<group>"; };
@@ -61,10 +60,13 @@
 		628822351BC653AD00904B90 /* MHDFindDocController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDFindDocController.m; sourceTree = "<group>"; };
 		628822371BC653C500904B90 /* MHDMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineController.h; sourceTree = "<group>"; };
 		628822381BC653C500904B90 /* MHDMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineController.m; sourceTree = "<group>"; };
-		6288223A1BC653DD00904B90 /* MHDActivityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailController.h; sourceTree = "<group>"; };
-		6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailController.m; sourceTree = "<group>"; };
 		6288223E1BC658E000904B90 /* sb_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back@2x.png"; sourceTree = "<group>"; };
 		6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back_blue@2x.png"; sourceTree = "<group>"; };
+		628822421BC65ED700904B90 /* SBBarModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBBarModule.framework; sourceTree = "<group>"; };
+		628822451BC65F3200904B90 /* MHDActivityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailController.h; sourceTree = "<group>"; };
+		628822461BC65F3200904B90 /* MHDActivityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailController.m; sourceTree = "<group>"; };
+		628822481BC65F3200904B90 /* MHDActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityController.h; sourceTree = "<group>"; };
+		628822491BC65F3200904B90 /* MHDActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityController.m; sourceTree = "<group>"; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECB31B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECB41B838F93005FC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				79AF9ECF1BB313AA00D6AC08 /* CoreLocation.framework in Frameworks */,
 				79AF9ECD1BB313A300D6AC08 /* Foundation.framework in Frameworks */,
 				79AF9ECB1BB3139800D6AC08 /* UIKit.framework in Frameworks */,
+				628822431BC65ED700904B90 /* SBBarModule.framework in Frameworks */,
 				79AF9EC91BB3138E00D6AC08 /* CoreGraphics.framework in Frameworks */,
 				79AF9EC71BB3138800D6AC08 /* CFNetwork.framework in Frameworks */,
 				79AF9EC51BB3138100D6AC08 /* SystemConfiguration.framework in Frameworks */,
@@ -158,10 +161,8 @@
 		628822281BC6417F00904B90 /* MHDActivity */ = {
 			isa = PBXGroup;
 			children = (
-				6288222B1BC641E000904B90 /* MHDActivityController.h */,
-				6288222C1BC641E000904B90 /* MHDActivityController.m */,
-				6288223A1BC653DD00904B90 /* MHDActivityDetailController.h */,
-				6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */,
+				628822441BC65F3200904B90 /* MHDActivityDetail */,
+				628822471BC65F3200904B90 /* MHDActivityList */,
 			);
 			path = MHDActivity;
 			sourceTree = "<group>";
@@ -191,6 +192,24 @@
 				6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		628822441BC65F3200904B90 /* MHDActivityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				628822451BC65F3200904B90 /* MHDActivityDetailController.h */,
+				628822461BC65F3200904B90 /* MHDActivityDetailController.m */,
+			);
+			path = MHDActivityDetail;
+			sourceTree = "<group>";
+		};
+		628822471BC65F3200904B90 /* MHDActivityList */ = {
+			isa = PBXGroup;
+			children = (
+				628822481BC65F3200904B90 /* MHDActivityController.h */,
+				628822491BC65F3200904B90 /* MHDActivityController.m */,
+			);
+			path = MHDActivityList;
 			sourceTree = "<group>";
 		};
 		7976ECA61B838F93005FC141 = {
@@ -277,6 +296,7 @@
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				628822421BC65ED700904B90 /* SBBarModule.framework */,
 				79AF9ED61BB313D600D6AC08 /* libresolv.dylib */,
 				79AF9ED41BB313C300D6AC08 /* libxml2.dylib */,
 				79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */,
@@ -439,6 +459,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
+				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
+				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
 				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
@@ -446,8 +468,6 @@
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
-				6288222D1BC641E000904B90 /* MHDActivityController.m in Sources */,
-				6288223C1BC653DD00904B90 /* MHDActivityDetailController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +575,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MentalHealthDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -570,6 +591,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MentalHealthDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
