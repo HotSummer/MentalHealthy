@@ -28,7 +28,10 @@
     self = [super init];
     
     if(self){
+        [self setBackgroundColor:[UIColor clearColor]];
+        
         _tabbarsArr = [[NSMutableArray alloc] initWithArray:tabbars];
+        _tabbarBtnArr = [[NSMutableArray alloc] init];
         _currentTabbar = 0;
     }
     
@@ -45,26 +48,27 @@
     [super layoutSubviews];
     
     CGFloat width = CGRectGetWidth(self.bounds);
-    CGFloat height = 49.0f;
-    CGFloat tabbarHeight = 45.0f;
-    CGFloat padding = (width - 45.0f*_tabbarBtnArr.count);
+    CGFloat height = 80.0f;
+    CGFloat tabbarHeight = 60.0f;
+    CGFloat padding = (width - tabbarHeight*_tabbarBtnArr.count)/_tabbarBtnArr.count;
     
-    for (int i = 0; i<_tabbarsArr.count; i ++) {
+    for (int i = 0; i<_tabbarBtnArr.count; i ++) {
         UIButton *tabbarBtn = _tabbarBtnArr[i];
-        [tabbarBtn setFrame:CGRectMake(padding/2+padding*i, (height - tabbarHeight)/2, tabbarHeight, tabbarHeight)];
+        [tabbarBtn setFrame:CGRectMake(padding/2+padding*i+tabbarHeight*i, (height - tabbarHeight)/2, tabbarHeight, tabbarHeight)];
         [tabbarBtn.layer setCornerRadius:tabbarHeight/2];
-        [tabbarBtn.layer setBorderWidth:1.0f];
+        [tabbarBtn.layer setBorderWidth:1.2f];
         [tabbarBtn.layer setBorderColor:[UIColor whiteColor].CGColor];
+        UIImage *defaultImage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor clearColor]] size:CGSizeMake(tabbarHeight, tabbarHeight) radius:tabbarHeight/2];
+        UIImage *highlightmage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor colorWithHex:0xef8507]] size:CGSizeMake(tabbarHeight, tabbarHeight) radius:tabbarHeight/2];
+        
+        [tabbarBtn setBackgroundImage:defaultImage forState:UIControlStateNormal];
+        [tabbarBtn setBackgroundImage:highlightmage forState:UIControlStateHighlighted];
+        [tabbarBtn setBackgroundImage:highlightmage forState:UIControlStateSelected];
     }
 }
 
 #pragma mark 添加按钮
-- (void)addShowTabbars{
-    
-    if(!_tabbarBtnArr){
-        _tabbarBtnArr = [[NSMutableArray alloc] init];
-    }
-    
+- (void)addShowTabbars{    
     [_tabbarBtnArr removeAllObjects];
 
     for (int i = 0; i<_tabbarsArr.count; i ++) {
@@ -74,27 +78,32 @@
         [tabbarBtn.titleLabel setFont:[UIFont systemFontOfSize:15.0f]];
 
         [tabbarBtn setBackgroundColor:[UIColor clearColor]];
-        [tabbarBtn setBackgroundImage:[UIImage createImageWithColor:[UIColor clearColor]] forState:UIControlStateNormal];
-        [tabbarBtn setBackgroundImage:[UIImage createImageWithColor:[UIColor colorWithHex:0xef8507]] forState:UIControlStateHighlighted];
-        [tabbarBtn setBackgroundImage:[UIImage createImageWithColor:[UIColor colorWithHex:0xef8507]] forState:UIControlStateSelected];
-
+        
         [tabbarBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [tabbarBtn setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         [tabbarBtn setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
         
+        [tabbarBtn addTarget:self action:@selector(tabbarDidSelected:) forControlEvents:UIControlEventTouchUpInside];
         [_tabbarBtnArr addObject:tabbarBtn];
         
         [self addSubview:tabbarBtn];
     }
+    
 }
 
-- (void)didselectedTabbar:(NSInteger )selectedTabbar{
-    
-    for (UIButton *tabbarBtn in _tabbarBtnArr) {
-        
-        [tabbarBtn setSelected:tabbarBtn.tag == selectedTabbar];
-    }
+#pragma mark 按钮点击事件
+- (void)tabbarDidSelected:(id)sender{
+//    UIButton *tabbarBtn = (UIButton *)sender;
+//    [self didselectedTabbar:tabbarBtn.tag];
 }
+
+//- (void)didselectedTabbar:(NSInteger )selectedTabbar{
+//    
+//    for (UIButton *tabbarBtn in _tabbarBtnArr) {
+//        
+//        [tabbarBtn setSelected:tabbarBtn.tag == selectedTabbar];
+//    }
+//}
 
 
 @end
