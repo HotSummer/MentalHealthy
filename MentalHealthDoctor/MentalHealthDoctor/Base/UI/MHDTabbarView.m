@@ -7,8 +7,6 @@
 //
 
 #import "MHDTabbarView.h"
-#import <Common/UIImage+TPCategory.h>
-#import <Common/UIColor+TPCategory.h>
 
 @interface MHDTabbarView()
 
