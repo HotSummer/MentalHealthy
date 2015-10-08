@@ -93,8 +93,10 @@
 
 #pragma mark 按钮点击事件
 - (void)tabbarDidSelected:(id)sender{
-//    UIButton *tabbarBtn = (UIButton *)sender;
-//    [self didselectedTabbar:tabbarBtn.tag];
+    UIButton *tabbarBtn = (UIButton *)sender;
+    if(self.didSelectedTab){
+        self.didSelectedTab(tabbarBtn.tag);
+    }
 }
 
 //- (void)didselectedTabbar:(NSInteger )selectedTabbar{

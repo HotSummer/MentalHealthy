@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^tabbarDidSelectedBlock)(NSInteger selectedIndex);
+
 @interface MHDTabbarView : UIView
+
+@property(nonatomic,copy) tabbarDidSelectedBlock didSelectedTab;
 
 /**
  初始化自定义tabbar

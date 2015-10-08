@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		628822221BC63C5900904B90 /* MHDBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822211BC63C5900904B90 /* MHDBasicController.m */; };
 		6288222D1BC641E000904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222C1BC641E000904B90 /* MHDActivityController.m */; };
+		628822301BC6538100904B90 /* MHDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222F1BC6538100904B90 /* MHDTestController.m */; };
+		628822331BC6538D00904B90 /* MHDFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822321BC6538D00904B90 /* MHDFindController.m */; };
+		628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822351BC653AD00904B90 /* MHDFindDocController.m */; };
+		628822391BC653C500904B90 /* MHDMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822381BC653C500904B90 /* MHDMineController.m */; };
+		6288223C1BC653DD00904B90 /* MHDActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */; };
+		628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223E1BC658E000904B90 /* sb_nav_back@2x.png */; };
+		628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
 		7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* MHDTransitionController.m */; };
@@ -46,6 +53,18 @@
 		628822211BC63C5900904B90 /* MHDBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBasicController.m; sourceTree = "<group>"; };
 		6288222B1BC641E000904B90 /* MHDActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityController.h; sourceTree = "<group>"; };
 		6288222C1BC641E000904B90 /* MHDActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityController.m; sourceTree = "<group>"; };
+		6288222E1BC6538100904B90 /* MHDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestController.h; sourceTree = "<group>"; };
+		6288222F1BC6538100904B90 /* MHDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTestController.m; sourceTree = "<group>"; };
+		628822311BC6538D00904B90 /* MHDFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDFindController.h; sourceTree = "<group>"; };
+		628822321BC6538D00904B90 /* MHDFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDFindController.m; sourceTree = "<group>"; };
+		628822341BC653AD00904B90 /* MHDFindDocController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDFindDocController.h; sourceTree = "<group>"; };
+		628822351BC653AD00904B90 /* MHDFindDocController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDFindDocController.m; sourceTree = "<group>"; };
+		628822371BC653C500904B90 /* MHDMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineController.h; sourceTree = "<group>"; };
+		628822381BC653C500904B90 /* MHDMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineController.m; sourceTree = "<group>"; };
+		6288223A1BC653DD00904B90 /* MHDActivityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailController.h; sourceTree = "<group>"; };
+		6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailController.m; sourceTree = "<group>"; };
+		6288223E1BC658E000904B90 /* sb_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back@2x.png"; sourceTree = "<group>"; };
+		6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back_blue@2x.png"; sourceTree = "<group>"; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECB31B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECB41B838F93005FC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +140,8 @@
 		628822261BC6414B00904B90 /* MHDMine */ = {
 			isa = PBXGroup;
 			children = (
+				628822371BC653C500904B90 /* MHDMineController.h */,
+				628822381BC653C500904B90 /* MHDMineController.m */,
 			);
 			path = MHDMine;
 			sourceTree = "<group>";
@@ -128,6 +149,8 @@
 		628822271BC6414B00904B90 /* MHDTest */ = {
 			isa = PBXGroup;
 			children = (
+				6288222E1BC6538100904B90 /* MHDTestController.h */,
+				6288222F1BC6538100904B90 /* MHDTestController.m */,
 			);
 			path = MHDTest;
 			sourceTree = "<group>";
@@ -137,6 +160,8 @@
 			children = (
 				6288222B1BC641E000904B90 /* MHDActivityController.h */,
 				6288222C1BC641E000904B90 /* MHDActivityController.m */,
+				6288223A1BC653DD00904B90 /* MHDActivityDetailController.h */,
+				6288223B1BC653DD00904B90 /* MHDActivityDetailController.m */,
 			);
 			path = MHDActivity;
 			sourceTree = "<group>";
@@ -144,6 +169,8 @@
 		628822291BC6417F00904B90 /* MHDFind */ = {
 			isa = PBXGroup;
 			children = (
+				628822311BC6538D00904B90 /* MHDFindController.h */,
+				628822321BC6538D00904B90 /* MHDFindController.m */,
 			);
 			path = MHDFind;
 			sourceTree = "<group>";
@@ -151,8 +178,19 @@
 		6288222A1BC6417F00904B90 /* MHDFindDoc */ = {
 			isa = PBXGroup;
 			children = (
+				628822341BC653AD00904B90 /* MHDFindDocController.h */,
+				628822351BC653AD00904B90 /* MHDFindDocController.m */,
 			);
 			path = MHDFindDoc;
+			sourceTree = "<group>";
+		};
+		6288223D1BC658E000904B90 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6288223E1BC658E000904B90 /* sb_nav_back@2x.png */,
+				6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		7976ECA61B838F93005FC141 = {
@@ -184,6 +222,7 @@
 				7976ECB71B838F93005FC141 /* AppDelegate.m */,
 				7976ECB91B838F93005FC141 /* MHDTransitionController.h */,
 				7976ECBA1B838F93005FC141 /* MHDTransitionController.m */,
+				6288223D1BC658E000904B90 /* Resource */,
 				7976ECBF1B838F93005FC141 /* Images.xcassets */,
 				7976ECB21B838F93005FC141 /* Supporting Files */,
 			);
@@ -346,6 +385,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
+				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,11 +438,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
+				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
+				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
+				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				6288222D1BC641E000904B90 /* MHDActivityController.m in Sources */,
+				6288223C1BC653DD00904B90 /* MHDActivityDetailController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
