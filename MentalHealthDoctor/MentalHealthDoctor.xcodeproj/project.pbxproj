@@ -16,6 +16,8 @@
 		628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */; };
 		6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822461BC65F3200904B90 /* MHDActivityDetailController.m */; };
 		6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822491BC65F3200904B90 /* MHDActivityController.m */; };
+		6288227E1BC662AE00904B90 /* SBModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227D1BC662AE00904B90 /* SBModule.framework */; };
+		628822801BC662D400904B90 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227F1BC662D400904B90 /* libsqlite3.dylib */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
 		7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* MHDTransitionController.m */; };
@@ -66,6 +68,8 @@
 		628822481BC65F3200904B90 /* MHDActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityController.h; sourceTree = "<group>"; };
 		628822491BC65F3200904B90 /* MHDActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityController.m; sourceTree = "<group>"; };
 		6288224C1BC65FFB00904B90 /* MHDModule-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHDModule-Prefix.pch"; sourceTree = "<group>"; };
+		6288227D1BC662AE00904B90 /* SBModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBModule.framework; sourceTree = "<group>"; };
+		6288227F1BC662D400904B90 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECB31B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECB41B838F93005FC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628822801BC662D400904B90 /* libsqlite3.dylib in Frameworks */,
 				79AF9ED71BB313D700D6AC08 /* libresolv.dylib in Frameworks */,
 				79AF9ED51BB313C300D6AC08 /* libxml2.dylib in Frameworks */,
 				79AF9ED31BB313BD00D6AC08 /* libxml2.2.dylib in Frameworks */,
@@ -113,6 +118,7 @@
 				79AF9EC31BB3136800D6AC08 /* CoreData.framework in Frameworks */,
 				814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */,
 				79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */,
+				6288227E1BC662AE00904B90 /* SBModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +165,8 @@
 		628822281BC6417F00904B90 /* MHDActivity */ = {
 			isa = PBXGroup;
 			children = (
-				628822441BC65F3200904B90 /* MHDActivityDetail */,
 				628822471BC65F3200904B90 /* MHDActivityList */,
+				628822441BC65F3200904B90 /* MHDActivityDetail */,
 			);
 			path = MHDActivity;
 			sourceTree = "<group>";
@@ -295,6 +301,8 @@
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6288227F1BC662D400904B90 /* libsqlite3.dylib */,
+				6288227D1BC662AE00904B90 /* SBModule.framework */,
 				79AF9ED61BB313D600D6AC08 /* libresolv.dylib */,
 				79AF9ED41BB313C300D6AC08 /* libxml2.dylib */,
 				79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */,

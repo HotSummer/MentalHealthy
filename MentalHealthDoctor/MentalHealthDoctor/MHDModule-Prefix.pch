@@ -10,5 +10,7 @@
 
 #import <Common/UIImage+TPCategory.h>
 #import <Common/UIColor+TPCategory.h>
+#import <Common/CommonDefine.h>
+#import <SBModule/SBCONSTANT.h>
 
 #endif

@@ -15,6 +15,8 @@
 @implementation MHDFindController
 
 - (void)customView{
+    [super customView];
+    
+    [self.navigationItem setTitle:@"发现"];
 }
-
 @end

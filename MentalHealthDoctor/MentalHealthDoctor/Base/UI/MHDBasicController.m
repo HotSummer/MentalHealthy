@@ -7,9 +7,6 @@
 //
 
 #import "MHDBasicController.h"
-#import <Common/CommonDefine.h>
-#import <Common/UIImage+TPCategory.h>
-#import <Common/UIColor+TPCategory.h>
 
 @interface MHDBasicController ()
 
@@ -51,7 +48,7 @@
     
     //返回按钮
     UIButton *backBtn = [[UIButton alloc] init];
-    backBtn.frame = CGRectMake(0, 0, 50, 30);
+    backBtn.frame = CGRectMake(0, 0, 50, 28);
     [backBtn setBackgroundImage:[UIImage imageNamed:@"sb_nav_back"] forState:UIControlStateNormal];
     [backBtn setBackgroundImage:[UIImage imageNamed:@"sb_nav_back_blue"] forState:UIControlStateSelected];
     backBtn.imageEdgeInsets = UIEdgeInsetsMake(4, 4, 4, 0);

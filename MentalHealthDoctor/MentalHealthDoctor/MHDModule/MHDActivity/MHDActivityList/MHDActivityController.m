@@ -9,6 +9,9 @@
 #import "MHDActivityController.h"
 #import "MHDTabbarView.h"
 #import "MHDTestController.h"
+#import "MHDFindController.h"
+#import "MHDFindDocController.h"
+#import "MHDMineController.h"
 
 @interface MHDActivityController ()
 
@@ -61,14 +64,20 @@
             break;
         case 1:{
             //发现界面
+            MHDFindController *findCtrl = [[MHDFindController alloc] init];
+            [self.navigationController pushViewController:findCtrl animated:YES];
         }
             break;
         case 2:{
             //找医生界面
+            MHDFindDocController *findDocCtrl = [[MHDFindDocController alloc] init];
+            [self.navigationController pushViewController:findDocCtrl animated:YES];
         }
             break;
         case 3:{
             //我界面
+            MHDMineController *mineCtrl = [[MHDMineController alloc] init];
+            [self.navigationController pushViewController:mineCtrl animated:YES];
         }
             break;
         default:
