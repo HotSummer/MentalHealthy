@@ -6,6 +6,6 @@
 //  Copyright (c) 2015年 zbq. All rights reserved.
 //  活动页
 
-@interface MHDActivityView : SBTableView
+@interface MHDActivityTableView : SBTableView
 
 @end

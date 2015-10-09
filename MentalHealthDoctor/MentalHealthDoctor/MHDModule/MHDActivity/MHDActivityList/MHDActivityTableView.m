@@ -6,10 +6,11 @@
 //  Copyright (c) 2015年 zbq. All rights reserved.
 //
 
-#import "MHDActivityView.h"
+#import "MHDActivityTableView.h"
 #import "MHDActivityTableCell.h"
+#import "MHDActivityDetailController.h"
 
-@implementation MHDActivityView
+@implementation MHDActivityTableView
 
 - (id)initWithStyle:(BOOL)isGrouped {
     self = [super initWithStyle:isGrouped];
@@ -25,7 +26,8 @@
     
     //点击单元格
     self.didSelectRow = ^(SBTableView *tableView, NSIndexPath *indexPath) {
-    
+        MHDActivityDetailController *detailView = [[MHDActivityDetailController alloc] init];
+        [tableView.ctrl.navigationController pushViewController:detailView animated:YES];
     };
     
     //临时修改单元格样式

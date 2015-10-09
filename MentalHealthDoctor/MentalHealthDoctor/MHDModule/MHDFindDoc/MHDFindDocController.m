@@ -7,6 +7,7 @@
 //
 
 #import "MHDFindDocController.h"
+#import "MHDDocListController.h"
 
 #define bottmViewHeight 60.0f
 
@@ -64,7 +65,7 @@
     _contentScrollView.frame = CGRectMake(0.0f, 0.0f, width, height - bottmViewHeight);
     _contentScrollView.contentSize = CGSizeMake(width , contentScrollViewHeight);
     
-    [_needFindTypeLbl setFrame:CGRectMake(10.0f, 20.0f, width, 20.0f)];
+    [_needFindTypeLbl setFrame:CGRectMake(btnPadding, 20.0f, width, 20.0f)];
     [_needFindTypeView setFrame:CGRectMake(0.0f, 0.0f, width, 10*2+btnHeight*4+btnPadding*3)];
     [_needFindTypeView sb_bottomOfView:_needFindTypeLbl withMargin:10.0f];
     for(int i=0;i<_typeBtnArr.count;i++){
@@ -81,7 +82,7 @@
         [typeBtn setBackgroundImage:highlightmage forState:UIControlStateSelected];
     }
     
-    [_needFindPriceLbl setFrame:CGRectMake(10.0f, 0.0f, width, 20.0f)];
+    [_needFindPriceLbl setFrame:CGRectMake(btnPadding, 0.0f, width, 20.0f)];
     [_needFindPriceLbl sb_bottomOfView:_needFindTypeView withMargin:10.0f];
     [_needFindPriceView setFrame:CGRectMake(0.0f, 0.0f, width, 10*2+btnHeight)];
     [_needFindPriceView sb_bottomOfView:_needFindPriceLbl withMargin:10.0f];
@@ -193,6 +194,7 @@
     [_searchBtn setBackgroundColor:[UIColor clearColor]];
     [_searchBtn setTitle:@"搜索" forState:UIControlStateNormal];
     [_searchBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [_searchBtn addTarget:self action:@selector(searchBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [_bottomView addSubview:_searchBtn];
 }
 
@@ -226,6 +228,12 @@
     for(UIButton *btn in _priceBtnArr){
         [btn setSelected:priceBtn.tag == btn.tag];
     }
+}
+
+#pragma mark 搜索按钮点击事件
+- (void)searchBtnClicked{
+    MHDDocListController *listCtrl = [[MHDDocListController alloc] init];
+    [self.navigationController pushViewController:listCtrl animated:YES];
 }
 
 @end

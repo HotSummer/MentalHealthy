@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		626759B11BC78A2400E8A52C /* activityPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = 626759B01BC78A2400E8A52C /* activityPoster.png */; };
 		626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B31BC795C200E8A52C /* MHDDocListController.m */; };
+		626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */; };
+		626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */; };
 		628822221BC63C5900904B90 /* MHDBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822211BC63C5900904B90 /* MHDBasicController.m */; };
 		628822301BC6538100904B90 /* MHDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222F1BC6538100904B90 /* MHDTestController.m */; };
 		628822331BC6538D00904B90 /* MHDFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822321BC6538D00904B90 /* MHDFindController.m */; };
@@ -20,7 +22,7 @@
 		6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822491BC65F3200904B90 /* MHDActivityController.m */; };
 		6288227E1BC662AE00904B90 /* SBModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227D1BC662AE00904B90 /* SBModule.framework */; };
 		628822801BC662D400904B90 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227F1BC662D400904B90 /* libsqlite3.dylib */; };
-		628822831BC6643A00904B90 /* MHDActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822821BC6643A00904B90 /* MHDActivityView.m */; };
+		628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822821BC6643A00904B90 /* MHDActivityTableView.m */; };
 		628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822851BC664AD00904B90 /* MHDActivityTableCell.m */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
@@ -58,6 +60,10 @@
 		626759B01BC78A2400E8A52C /* activityPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activityPoster.png; sourceTree = "<group>"; };
 		626759B21BC795C200E8A52C /* MHDDocListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocListController.h; sourceTree = "<group>"; };
 		626759B31BC795C200E8A52C /* MHDDocListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocListController.m; sourceTree = "<group>"; };
+		626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableView.h; sourceTree = "<group>"; };
+		626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocTableView.m; sourceTree = "<group>"; };
+		626759B81BC7B03600E8A52C /* MHDDocTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableViewCell.h; sourceTree = "<group>"; };
+		626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocTableViewCell.m; sourceTree = "<group>"; };
 		628822201BC63C5900904B90 /* MHDBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDBasicController.h; sourceTree = "<group>"; };
 		628822211BC63C5900904B90 /* MHDBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBasicController.m; sourceTree = "<group>"; };
 		6288222E1BC6538100904B90 /* MHDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestController.h; sourceTree = "<group>"; };
@@ -77,8 +83,8 @@
 		6288224C1BC65FFB00904B90 /* MHDModule-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHDModule-Prefix.pch"; sourceTree = "<group>"; };
 		6288227D1BC662AE00904B90 /* SBModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBModule.framework; sourceTree = "<group>"; };
 		6288227F1BC662D400904B90 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		628822811BC6643A00904B90 /* MHDActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityView.h; sourceTree = "<group>"; };
-		628822821BC6643A00904B90 /* MHDActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityView.m; sourceTree = "<group>"; };
+		628822811BC6643A00904B90 /* MHDActivityTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityTableView.h; sourceTree = "<group>"; };
+		628822821BC6643A00904B90 /* MHDActivityTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityTableView.m; sourceTree = "<group>"; };
 		628822841BC664AD00904B90 /* MHDActivityTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityTableCell.h; sourceTree = "<group>"; };
 		628822851BC664AD00904B90 /* MHDActivityTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityTableCell.m; sourceTree = "<group>"; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +204,10 @@
 				628822351BC653AD00904B90 /* MHDFindDocController.m */,
 				626759B21BC795C200E8A52C /* MHDDocListController.h */,
 				626759B31BC795C200E8A52C /* MHDDocListController.m */,
+				626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */,
+				626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */,
+				626759B81BC7B03600E8A52C /* MHDDocTableViewCell.h */,
+				626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */,
 			);
 			path = MHDFindDoc;
 			sourceTree = "<group>";
@@ -226,8 +236,8 @@
 			children = (
 				628822481BC65F3200904B90 /* MHDActivityController.h */,
 				628822491BC65F3200904B90 /* MHDActivityController.m */,
-				628822811BC6643A00904B90 /* MHDActivityView.h */,
-				628822821BC6643A00904B90 /* MHDActivityView.m */,
+				628822811BC6643A00904B90 /* MHDActivityTableView.h */,
+				628822821BC6643A00904B90 /* MHDActivityTableView.m */,
 				628822841BC664AD00904B90 /* MHDActivityTableCell.h */,
 				628822851BC664AD00904B90 /* MHDActivityTableCell.m */,
 			);
@@ -485,8 +495,10 @@
 			files = (
 				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
 				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
+				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
+				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,
 				626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
 				628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */,
@@ -494,7 +506,7 @@
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
-				628822831BC6643A00904B90 /* MHDActivityView.m in Sources */,
+				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
 			);

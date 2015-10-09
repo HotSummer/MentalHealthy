@@ -12,12 +12,12 @@
 #import "MHDFindController.h"
 #import "MHDFindDocController.h"
 #import "MHDMineController.h"
-#import "MHDActivityView.h"
+#import "MHDActivityTableView.h"
 
 @interface MHDActivityController ()
 
 @property(nonatomic ,strong) MHDTabbarView *activityBottomMenuView;
-@property(nonatomic ,strong) MHDActivityView *activityListView;
+@property(nonatomic ,strong) MHDActivityTableView *activityListView;
 
 @end
 
@@ -52,7 +52,8 @@
 
 #pragma mark 活动列表
 - (void)loadActivityTableView{
-    _activityListView = [[MHDActivityView alloc] initWithStyle:NO];
+    _activityListView = [[MHDActivityTableView alloc] initWithStyle:NO];
+    _activityListView.ctrl = self;
     [self.view addSubview:_activityListView];
 }
 
