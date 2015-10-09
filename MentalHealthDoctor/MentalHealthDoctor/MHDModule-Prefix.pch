@@ -12,5 +12,5 @@
 #import <Common/UIColor+TPCategory.h>
 #import <Common/CommonDefine.h>
 #import <SBModule/SBCONSTANT.h>
-
+#import <Common/UIImageView+SDWebImage.h>
 #endif

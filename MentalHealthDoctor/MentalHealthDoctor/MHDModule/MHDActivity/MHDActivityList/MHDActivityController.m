@@ -12,10 +12,12 @@
 #import "MHDFindController.h"
 #import "MHDFindDocController.h"
 #import "MHDMineController.h"
+#import "MHDActivityView.h"
 
 @interface MHDActivityController ()
 
 @property(nonatomic ,strong) MHDTabbarView *activityBottomMenuView;
+@property(nonatomic ,strong) MHDActivityView *activityListView;
 
 @end
 
@@ -33,7 +35,11 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cityBtn];
     
     self.view.backgroundColor = [UIColor blackColor];
-
+    
+    //导入活动列表
+    [self loadActivityTableView];
+    
+    //加载底部菜单
     [self loadBottonMenuView];
 }
 
@@ -41,8 +47,16 @@
     [super viewDidLayoutSubviews];
     
     [_activityBottomMenuView setFrame:CGRectMake(0.0f, CGRectGetHeight(self.view.bounds)-80.0f, CGRectGetWidth(self.view.bounds), 80.0f)];
+    [_activityListView setFrame:CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 80.0f)];
 }
 
+#pragma mark 活动列表
+- (void)loadActivityTableView{
+    _activityListView = [[MHDActivityView alloc] initWithStyle:NO];
+    [self.view addSubview:_activityListView];
+}
+
+#pragma mark 底部菜单
 - (void)loadBottonMenuView{
     __weak typeof(self) __weakSelf = self;
     
