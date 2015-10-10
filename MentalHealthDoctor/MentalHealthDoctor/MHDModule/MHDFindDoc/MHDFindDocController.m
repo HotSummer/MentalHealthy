@@ -71,12 +71,13 @@
     for(int i=0;i<_typeBtnArr.count;i++){
         UIButton *typeBtn = _typeBtnArr[i];
         [typeBtn setFrame:CGRectMake(btnPadding + i%3*(btnPadding+btnWidth), 10+i/3*(btnPadding+btnHeight), btnWidth, btnHeight)];
-        [typeBtn.layer setCornerRadius:5.0f];
-        [typeBtn.layer setBorderColor:[UIColor blackColor].CGColor];
-        [typeBtn.layer setBorderWidth:1.0f];
+        [typeBtn.layer setShadowOffset:CGSizeMake(3, 3)];
+        [typeBtn.layer setShadowRadius:4];
+        [typeBtn.layer setShadowOpacity:0.5];
+        [typeBtn.layer setShadowColor:[UIColor blackColor].CGColor];
         
-        UIImage *defaultImage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor clearColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
-        UIImage *highlightmage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor colorWithHex:0xef8507]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
+        UIImage *defaultImage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor whiteColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
+        UIImage *highlightmage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor orangeColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
         [typeBtn setBackgroundImage:defaultImage forState:UIControlStateNormal];
         [typeBtn setBackgroundImage:highlightmage forState:UIControlStateHighlighted];
         [typeBtn setBackgroundImage:highlightmage forState:UIControlStateSelected];
@@ -89,12 +90,13 @@
     for(int i=0;i<_priceBtnArr.count;i++){
         UIButton *priceBtn = _priceBtnArr[i];
         [priceBtn setFrame:CGRectMake(btnPadding + i%3*(btnPadding+btnWidth), 10+i/3*(btnPadding+btnHeight), btnWidth, btnHeight)];
-        [priceBtn.layer setCornerRadius:5.0f];
-        [priceBtn.layer setBorderColor:[UIColor blackColor].CGColor];
-        [priceBtn.layer setBorderWidth:1.0f];
+        [priceBtn.layer setShadowOffset:CGSizeMake(3, 3)];
+        [priceBtn.layer setShadowRadius:4];
+        [priceBtn.layer setShadowOpacity:0.5];
+        [priceBtn.layer setShadowColor:[UIColor blackColor].CGColor];
         
-        UIImage *defaultImage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor clearColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
-        UIImage *highlightmage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor colorWithHex:0xef8507]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
+        UIImage *defaultImage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor whiteColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
+        UIImage *highlightmage = [UIImage createRoundedRectImage:[UIImage createImageWithColor:[UIColor orangeColor]] size:CGSizeMake(btnWidth, btnHeight) radius:5.0f];
         [priceBtn setBackgroundImage:defaultImage forState:UIControlStateNormal];
         [priceBtn setBackgroundImage:highlightmage forState:UIControlStateHighlighted];
         [priceBtn setBackgroundImage:highlightmage forState:UIControlStateSelected];
@@ -107,6 +109,11 @@
     [_searchBtn setBackgroundImage:defaultImage forState:UIControlStateNormal];
     [_searchBtn setBackgroundImage:defaultImage forState:UIControlStateHighlighted];
     [_searchBtn setBackgroundImage:defaultImage forState:UIControlStateSelected];
+    
+    [_searchBtn.layer setShadowOffset:CGSizeMake(3, 3)];
+    [_searchBtn.layer setShadowRadius:4];
+    [_searchBtn.layer setShadowOpacity:0.5];
+    [_searchBtn.layer setShadowColor:[UIColor blackColor].CGColor];
 }
 
 #pragma mark 添加滚动

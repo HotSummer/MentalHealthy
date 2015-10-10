@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 zbq. All rights reserved.
 //
 
-#define _DocTableViewCell 100.0f
+#define _DocTableViewCell 105.0f
 
 @interface MHDDocTableViewCell : SBDataTableCell
 
@@ -14,8 +14,8 @@
 @property(nonatomic ,strong) UIView *detaiView;
 
 @property(nonatomic ,strong) UILabel *docNameLbl;
-@property(nonatomic ,strong) UIView *docLevelLbl;
-@property(nonatomic ,strong) UIView *docSummaryLbl;
+@property(nonatomic ,strong) UILabel *docLevelLbl;
+@property(nonatomic ,strong) UILabel *docSummaryLbl;
 
 @property(nonatomic ,strong) UIImageView *star1ImageView;
 @property(nonatomic ,strong) UIImageView *star2ImageView;

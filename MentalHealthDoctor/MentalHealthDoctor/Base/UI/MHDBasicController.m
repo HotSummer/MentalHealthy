@@ -20,9 +20,9 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     //添加手势返回 IOS7及以上系统才能使用
-//    if(isAfterIOS7){
+    if(isAfterIOS7){
 //        self.navigationController.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
-//    }
+    }
 }
 
 /** 视图加载完成 */
