@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		622529801BC8B6F80006D876 /* docHead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6225297F1BC8B6F80006D876 /* docHead.jpg */; };
 		622529821BC8B9710006D876 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 622529811BC8B9710006D876 /* star.png */; };
-		626759B11BC78A2400E8A52C /* activityPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = 626759B01BC78A2400E8A52C /* activityPoster.png */; };
+		622529871BC8E01F0006D876 /* cuimian.png in Resources */ = {isa = PBXBuildFile; fileRef = 622529861BC8E01F0006D876 /* cuimian.png */; };
+		6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225298A1BC8E1370006D876 /* MHDDocDetailController.m */; };
+		6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */; };
+		622529941BC8E3490006D876 /* MHDDocDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */; };
+		622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */; };
 		626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B31BC795C200E8A52C /* MHDDocListController.m */; };
 		626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */; };
 		626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */; };
@@ -61,7 +65,15 @@
 		5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6225297F1BC8B6F80006D876 /* docHead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = docHead.jpg; sourceTree = "<group>"; };
 		622529811BC8B9710006D876 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
-		626759B01BC78A2400E8A52C /* activityPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activityPoster.png; sourceTree = "<group>"; };
+		622529861BC8E01F0006D876 /* cuimian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuimian.png; sourceTree = "<group>"; };
+		622529891BC8E1370006D876 /* MHDDocDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailController.h; sourceTree = "<group>"; };
+		6225298A1BC8E1370006D876 /* MHDDocDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailController.m; sourceTree = "<group>"; };
+		6225298C1BC8E1FE0006D876 /* MHDDocDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailHeadView.h; sourceTree = "<group>"; };
+		6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailHeadView.m; sourceTree = "<group>"; };
+		622529921BC8E3490006D876 /* MHDDocDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailTableViewCell.h; sourceTree = "<group>"; };
+		622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableViewCell.m; sourceTree = "<group>"; };
+		622529951BC8E36A0006D876 /* MHDDocDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailTableView.h; sourceTree = "<group>"; };
+		622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableView.m; sourceTree = "<group>"; };
 		626759B21BC795C200E8A52C /* MHDDocListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocListController.h; sourceTree = "<group>"; };
 		626759B31BC795C200E8A52C /* MHDDocListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocListController.m; sourceTree = "<group>"; };
 		626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableView.h; sourceTree = "<group>"; };
@@ -153,6 +165,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622529881BC8E1370006D876 /* MHDDocDetail */ = {
+			isa = PBXGroup;
+			children = (
+				622529891BC8E1370006D876 /* MHDDocDetailController.h */,
+				6225298A1BC8E1370006D876 /* MHDDocDetailController.m */,
+				6225298C1BC8E1FE0006D876 /* MHDDocDetailHeadView.h */,
+				6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */,
+				622529951BC8E36A0006D876 /* MHDDocDetailTableView.h */,
+				622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */,
+				622529921BC8E3490006D876 /* MHDDocDetailTableViewCell.h */,
+				622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */,
+			);
+			path = MHDDocDetail;
+			sourceTree = "<group>";
+		};
 		628822251BC6414B00904B90 /* MHDModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +239,7 @@
 				626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */,
 				626759B81BC7B03600E8A52C /* MHDDocTableViewCell.h */,
 				626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */,
+				622529881BC8E1370006D876 /* MHDDocDetail */,
 			);
 			path = MHDFindDoc;
 			sourceTree = "<group>";
@@ -219,9 +247,9 @@
 		6288223D1BC658E000904B90 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				622529861BC8E01F0006D876 /* cuimian.png */,
 				622529811BC8B9710006D876 /* star.png */,
 				6225297F1BC8B6F80006D876 /* docHead.jpg */,
-				626759B01BC78A2400E8A52C /* activityPoster.png */,
 				6288223E1BC658E000904B90 /* sb_nav_back@2x.png */,
 				6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */,
 			);
@@ -445,11 +473,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622529871BC8E01F0006D876 /* cuimian.png in Resources */,
 				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
 				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 				622529801BC8B6F80006D876 /* docHead.jpg in Resources */,
-				626759B11BC78A2400E8A52C /* activityPoster.png in Resources */,
 				622529821BC8B9710006D876 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,16 +531,20 @@
 			files = (
 				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
 				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
+				6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */,
+				6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
 				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,
 				626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
+				622529941BC8E3490006D876 /* MHDDocDetailTableViewCell.m in Sources */,
 				628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */,
 				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
+				622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
 				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,

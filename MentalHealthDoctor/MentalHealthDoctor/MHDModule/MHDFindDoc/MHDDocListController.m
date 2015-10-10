@@ -21,7 +21,7 @@
 - (void)customView{
     [super customView];
     
-    self.title = @"符合条件的医生列表";
+    self.title = @"符合条件的咨询师列表";
     
     [self loadDocTableView];
     

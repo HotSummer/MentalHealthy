@@ -8,6 +8,7 @@
 
 #import "MHDDocTableView.h"
 #import "MHDDocTableViewCell.h"
+#import "MHDDocDetailController.h"
 
 @implementation MHDDocTableView
 
@@ -25,7 +26,8 @@
     
     //点击单元格
     self.didSelectRow = ^(SBTableView *tableView, NSIndexPath *indexPath) {
-        
+        MHDDocDetailController *docDetailCtrl = [[MHDDocDetailController alloc] init];
+        [tableView.ctrl.navigationController pushViewController:docDetailCtrl animated:YES];
     };
     
     //临时修改单元格样式

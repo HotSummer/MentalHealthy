@@ -93,13 +93,13 @@
     [self.star1ImageView setFrame:CGRectMake(0.0f, padding, 15.0f, 15.0f)];
     [self.star1ImageView sb_rightOfView:self.docNameLbl withMargin:padding];
     [self.star2ImageView setFrame:CGRectMake(0.0f, padding, 15.0f, 15.0f)];
-    [self.star2ImageView sb_rightOfView:self.star1ImageView withMargin:padding];
+    [self.star2ImageView sb_rightOfView:self.star1ImageView withMargin:padding/2];
     [self.star3ImageView setFrame:CGRectMake(0.0f, padding, 15.0f, 15.0f)];
-    [self.star3ImageView sb_rightOfView:self.star2ImageView withMargin:padding];
+    [self.star3ImageView sb_rightOfView:self.star2ImageView withMargin:padding/2];
     [self.star4ImageView setFrame:CGRectMake(0.0f, padding, 15.0f, 15.0f)];
-    [self.star4ImageView sb_rightOfView:self.star3ImageView withMargin:padding];
+    [self.star4ImageView sb_rightOfView:self.star3ImageView withMargin:padding/2];
     [self.star5ImageView setFrame:CGRectMake(0.0f, padding, 15.0f, 15.0f)];
-    [self.star5ImageView sb_rightOfView:self.star4ImageView withMargin:padding];
+    [self.star5ImageView sb_rightOfView:self.star4ImageView withMargin:padding/2];
     
     
     [self.docLevelLbl setFrame:CGRectMake(10.0f, 5.0f, CGRectGetWidth(self.detaiView.bounds) - 20.0f, 16.0f)];
@@ -120,12 +120,12 @@
     [self.star4ImageView setImage:[UIImage imageNamed:@"star"]];
     [self.star5ImageView setImage:[UIImage imageNamed:@"star"]];
     
-    int showStars = 2;
-    [self.star1ImageView setHidden:showStars<0];
-    [self.star2ImageView setHidden:showStars<1];
-    [self.star3ImageView setHidden:showStars<2];
-    [self.star4ImageView setHidden:showStars<3];
-    [self.star5ImageView setHidden:showStars<4];
+    NSInteger showStars = self.indexPath.row;
+    [self.star1ImageView setHidden:showStars<1];
+    [self.star2ImageView setHidden:showStars<2];
+    [self.star3ImageView setHidden:showStars<3];
+    [self.star4ImageView setHidden:showStars<4];
+    [self.star5ImageView setHidden:showStars<5];
     
     [self.docNameLbl setText:@"朱帮乾"];
     [self.docLevelLbl setText:@"国家一级催眠师，国际一级心理咨询师"];

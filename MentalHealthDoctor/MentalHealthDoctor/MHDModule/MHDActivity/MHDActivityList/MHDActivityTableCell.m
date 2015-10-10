@@ -85,9 +85,14 @@
     [self.activityIntroduceView setFrame:CGRectMake(0.0f, 0.0f, cellWidth, 110.0f)];
     [self.activityIntroduceView sb_bottomOfView:self.activityPosterImageView];
     
-    [self.activityTypeLbl setFrame:CGRectMake(20.0f, 0.0f, 150.0f, 20.0f)];
+    [self.activityTypeLbl setFrame:CGRectMake(20.0f, 5.0f, 150.0f, 20.0f)];
     [self.activityReimdLbl setFrame:CGRectMake(cellWidth - 140.0f, 5.0f, 130.0f, 30.0f)];
     [self.activityReimdLbl.layer setCornerRadius:5.0f];
+    [self.activityReimdLbl.layer setMasksToBounds:YES];
+    [self.activityReimdLbl.layer setShadowOffset:CGSizeMake(2, 2)];
+    [self.activityReimdLbl.layer setShadowRadius:4];
+    [self.activityReimdLbl.layer setShadowOpacity:0.5];
+    [self.activityReimdLbl.layer setShadowColor:[UIColor blackColor].CGColor];
     
     [self.activityTitleLbl setFrame:CGRectMake(10.0f, 0.0f, cellWidth - 140.0f, 20.0f)];
     [self.activityTitleLbl sb_bottomOfView:self.activityTypeLbl withMargin:padding];
@@ -102,7 +107,7 @@
 - (void)bindCellData {
     [super bindCellData];
     
-    [self.activityPosterImageView setImage:[UIImage imageNamed:@"activityPoster.png"]];
+    [self.activityPosterImageView setImage:[UIImage imageNamed:@"cuimian"]];
     
     [self.activityTypeLbl setText:@"沙龙"];
     
