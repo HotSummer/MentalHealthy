@@ -14,6 +14,10 @@
 		6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */; };
 		622529941BC8E3490006D876 /* MHDDocDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */; };
 		622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */; };
+		6225299A1BC90C130006D876 /* MHDActivityDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */; };
+		6225299D1BC90C2B0006D876 /* MHDActivityDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */; };
+		622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */; };
+		622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */; };
 		626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B31BC795C200E8A52C /* MHDDocListController.m */; };
 		626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */; };
 		626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */; };
@@ -74,6 +78,14 @@
 		622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableViewCell.m; sourceTree = "<group>"; };
 		622529951BC8E36A0006D876 /* MHDDocDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailTableView.h; sourceTree = "<group>"; };
 		622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableView.m; sourceTree = "<group>"; };
+		622529981BC90C130006D876 /* MHDActivityDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailHeadView.h; sourceTree = "<group>"; };
+		622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailHeadView.m; sourceTree = "<group>"; };
+		6225299B1BC90C2B0006D876 /* MHDActivityDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailTableView.h; sourceTree = "<group>"; };
+		6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailTableView.m; sourceTree = "<group>"; };
+		6225299E1BC90C680006D876 /* MHDActivityDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailTableViewCell.h; sourceTree = "<group>"; };
+		6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailTableViewCell.m; sourceTree = "<group>"; };
+		622529A11BC90C7D0006D876 /* MHDActivityDetailBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailBottomView.h; sourceTree = "<group>"; };
+		622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailBottomView.m; sourceTree = "<group>"; };
 		626759B21BC795C200E8A52C /* MHDDocListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocListController.h; sourceTree = "<group>"; };
 		626759B31BC795C200E8A52C /* MHDDocListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocListController.m; sourceTree = "<group>"; };
 		626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableView.h; sourceTree = "<group>"; };
@@ -261,6 +273,14 @@
 			children = (
 				628822451BC65F3200904B90 /* MHDActivityDetailController.h */,
 				628822461BC65F3200904B90 /* MHDActivityDetailController.m */,
+				622529981BC90C130006D876 /* MHDActivityDetailHeadView.h */,
+				622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */,
+				6225299B1BC90C2B0006D876 /* MHDActivityDetailTableView.h */,
+				6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */,
+				6225299E1BC90C680006D876 /* MHDActivityDetailTableViewCell.h */,
+				6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */,
+				622529A11BC90C7D0006D876 /* MHDActivityDetailBottomView.h */,
+				622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */,
 			);
 			path = MHDActivityDetail;
 			sourceTree = "<group>";
@@ -530,9 +550,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
+				6225299D1BC90C2B0006D876 /* MHDActivityDetailTableView.m in Sources */,
 				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
 				6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */,
 				6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */,
+				6225299A1BC90C130006D876 /* MHDActivityDetailHeadView.m in Sources */,
+				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
@@ -543,6 +566,7 @@
 				628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */,
 				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
+				622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */,
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
 				622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,

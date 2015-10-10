@@ -115,6 +115,7 @@
     [_hospitalbtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_hospitalbtn.titleLabel setFont:[UIFont systemFontOfSize:13.0f]];
     [_hospitalbtn setTitle:@"上海宏康医院 》" forState:UIControlStateNormal];
+    [_hospitalbtn addTarget:self action:@selector(hosipitalBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [_hospitalbtn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     [self addSubview:_hospitalbtn];
     
@@ -174,6 +175,12 @@
     NSInteger countSize = [_buyCountLbl.text integerValue];
     countSize = countSize + 1;
     [_buyCountLbl setText:[NSString stringWithFormat:@"%ld",countSize]];
+}
+
+#pragma mark 机构点击事件
+- (void)hosipitalBtnClicked{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"上海宏康医院" message:@"简介~~~~" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 @end
