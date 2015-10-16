@@ -18,8 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.navigationController setNavigationBarHidden:YES];
-    
     UILabel *loadingView = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, CGRectGetHeight(self.view.bounds)/2, CGRectGetWidth(self.view.bounds), 20.0f)];
     [loadingView setBackgroundColor:[UIColor clearColor]];
     [loadingView setTextAlignment:NSTextAlignmentCenter];

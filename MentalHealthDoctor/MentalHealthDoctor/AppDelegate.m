@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Common/SZBaseTabBarViewController.h>
-#import "MHDTransitionController.h"
+#import "MHDActivityController.h"
 
 @interface AppDelegate ()
 
@@ -18,12 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    MHDTransitionController *transitionControl = [[MHDTransitionController alloc] init];
+
+    MHDActivityController *transitionControl = [[MHDActivityController alloc] init];
     UINavigationController *rootNavigation = [[UINavigationController alloc] initWithRootViewController:transitionControl];
     [self.window setRootViewController:rootNavigation];
     [self.window makeKeyAndVisible];
