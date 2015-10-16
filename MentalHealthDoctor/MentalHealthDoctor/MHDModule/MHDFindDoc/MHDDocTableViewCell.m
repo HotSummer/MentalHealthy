@@ -107,6 +107,12 @@
     
     [self.docSummaryLbl setFrame:CGRectMake(10.0f, 0.0f, CGRectGetWidth(self.detaiView.bounds) - 20.0f, 32.0f)];
     [self.docSummaryLbl sb_bottomOfView:self.docLevelLbl withMargin:padding];
+    
+    for (UIView *subview in self.contentView.superview.subviews) {
+        if ([NSStringFromClass(subview.class) hasSuffix:@"SeparatorView"]) {
+            subview.hidden = YES;
+        }
+    }
 }
 
 - (void)bindCellData {

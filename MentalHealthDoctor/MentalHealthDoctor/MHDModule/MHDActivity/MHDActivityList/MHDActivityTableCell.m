@@ -8,6 +8,8 @@
 
 #import "MHDActivityTableCell.h"
 
+#define nouseViewTag 100000
+
 @implementation MHDActivityTableCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
@@ -16,6 +18,7 @@
         [self setBackgroundColor:[UIColor clearColor]];
         [self.contentView setBackgroundColor:[UIColor clearColor]];
         [self setAccessoryType:UITableViewCellAccessoryNone];
+        [self setSelectionStyle:UITableViewCellSelectionStyleNone];
         
         //宣传照片
         self.activityPosterImageView = [[UIImageView alloc] init];
@@ -70,6 +73,13 @@
         [self.activityAddressLbl setFont:[UIFont systemFontOfSize:13.0f]];
         [self.activityAddressLbl setTextColor:[UIColor blackColor]];
         [self.activityIntroduceView addSubview:self.activityAddressLbl];
+        
+        for(int i=0;i<3;i++){
+            UIView *nouseView = [[UIView alloc] init];
+            [nouseView setBackgroundColor:[UIColor grayColor]];
+            [nouseView setTag:nouseViewTag+i];
+            [self.contentView addSubview:nouseView];
+        }
     }
     return self;
 }
@@ -102,6 +112,19 @@
     
     [self.activityAddressLbl setFrame:CGRectMake(10.0f, 0.0f, cellWidth - 10.0*2, 20.0f)];
     [self.activityAddressLbl sb_bottomOfView:self.activityTimeLbl withMargin:padding];
+    
+    float nouseViewWidth = 7.0f;
+    
+    for(int i=0;i<3;i++){
+        UIView *nouseView = [self.contentView viewWithTag:nouseViewTag+i];
+        if(nouseView){
+            [nouseView setFrame:CGRectMake(cellWidth/3 * i + (cellWidth/3 - nouseViewWidth)/2, 0.0f, nouseViewWidth, nouseViewWidth)];
+            [nouseView sb_bottomOfView:self.activityIntroduceView withMargin:10.0f];
+            [nouseView.layer setCornerRadius:nouseViewWidth/2];
+            [nouseView.layer setBorderColor:[UIColor whiteColor].CGColor];
+            [nouseView.layer setBorderWidth:2.0f];
+        }
+    }
 }
 
 - (void)bindCellData {

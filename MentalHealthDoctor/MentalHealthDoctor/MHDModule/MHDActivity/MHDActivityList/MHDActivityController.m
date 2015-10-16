@@ -27,9 +27,9 @@
     [super customView];
     
     //城市按钮
-    UIButton *cityBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 30) ];
+    UIButton *cityBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 30) ];
     [cityBtn setBackgroundColor:[UIColor clearColor]];
-    [cityBtn setTitle:@"上海" forState:UIControlStateNormal];
+    [cityBtn setTitle:@"▼ 上海" forState:UIControlStateNormal];
     [cityBtn.titleLabel setTextColor:[UIColor blueColor]];
     [cityBtn addTarget:self action:@selector(cityBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cityBtn];
@@ -102,7 +102,8 @@
 
 #pragma mark 城市按钮点击事件
 - (void)cityBtnClicked{
-    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提醒" message:@"此功能需要服务器完善返回数据，前端配合开发" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
 @end
