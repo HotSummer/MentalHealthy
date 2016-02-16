@@ -53,6 +53,17 @@
 		79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3E4E71B8A0E230077EFA3 /* Common.framework */; };
 		814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */; };
 		A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92A71331BC12743000034E9 /* MHDTabbarView.m */; };
+		AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */; };
+		AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CED81C71BE930072A125 /* MHDMainCell.m */; };
+		AE40CEDE1C71BE930072A125 /* MHDMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE40CED91C71BE930072A125 /* MHDMainCell.xib */; };
+		AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE40CEDA1C71BE930072A125 /* Main.storyboard */; };
+		AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */; };
+		AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEE81C71C2140072A125 /* MHDModel.m */; };
+		AE40CEEC1C71C3550072A125 /* MentalAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEEB1C71C3550072A125 /* MentalAdModel.m */; };
+		AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEEE1C71E0B90072A125 /* MHDMainController.m */; };
+		AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */; };
+		AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */; };
+		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +152,26 @@
 		9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A92A71321BC12743000034E9 /* MHDTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabbarView.h; sourceTree = "<group>"; };
 		A92A71331BC12743000034E9 /* MHDTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabbarView.m; sourceTree = "<group>"; };
+		AE40CECF1C71AEC30072A125 /* MHDNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDNavigationViewController.h; sourceTree = "<group>"; };
+		AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDNavigationViewController.m; sourceTree = "<group>"; };
+		AE40CED71C71BE930072A125 /* MHDMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainCell.h; sourceTree = "<group>"; };
+		AE40CED81C71BE930072A125 /* MHDMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainCell.m; sourceTree = "<group>"; };
+		AE40CED91C71BE930072A125 /* MHDMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDMainCell.xib; sourceTree = "<group>"; };
+		AE40CEDA1C71BE930072A125 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainTableViewViewController.h; sourceTree = "<group>"; };
+		AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainTableViewViewController.m; sourceTree = "<group>"; };
+		AE40CEE71C71C2140072A125 /* MHDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDModel.h; sourceTree = "<group>"; };
+		AE40CEE81C71C2140072A125 /* MHDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDModel.m; sourceTree = "<group>"; };
+		AE40CEEA1C71C3550072A125 /* MentalAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentalAdModel.h; sourceTree = "<group>"; };
+		AE40CEEB1C71C3550072A125 /* MentalAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentalAdModel.m; sourceTree = "<group>"; };
+		AE40CEED1C71E0B90072A125 /* MHDMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainController.h; sourceTree = "<group>"; };
+		AE40CEEE1C71E0B90072A125 /* MHDMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainController.m; sourceTree = "<group>"; };
+		AE8F6D271C6A05820028D290 /* MHDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDBaseViewController.h; sourceTree = "<group>"; };
+		AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBaseViewController.m; sourceTree = "<group>"; };
+		AE8F6D3D1C7185030028D290 /* MHDTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableViewViewController.h; sourceTree = "<group>"; };
+		AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewViewController.m; sourceTree = "<group>"; };
+		AE8F6D461C719FD20028D290 /* MHDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableCell.h; sourceTree = "<group>"; };
+		AE8F6D471C719FD20028D290 /* MHDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableCell.m; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +226,7 @@
 		628822251BC6414B00904B90 /* MHDModule */ = {
 			isa = PBXGroup;
 			children = (
+				AE8F6D2A1C6A06120028D290 /* MHDMain */,
 				628822281BC6417F00904B90 /* MHDActivity */,
 				628822271BC6414B00904B90 /* MHDTest */,
 				628822291BC6417F00904B90 /* MHDFind */,
@@ -364,6 +396,7 @@
 		797DF2AB1B8CB71F00617C58 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AE40CEE61C71C1F90072A125 /* Model */,
 				797DF2AC1B8CB74600617C58 /* UI */,
 			);
 			path = Base;
@@ -376,8 +409,82 @@
 				A92A71331BC12743000034E9 /* MHDTabbarView.m */,
 				628822201BC63C5900904B90 /* MHDBasicController.h */,
 				628822211BC63C5900904B90 /* MHDBasicController.m */,
+				AE8F6D271C6A05820028D290 /* MHDBaseViewController.h */,
+				AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */,
+				AE8F6D3D1C7185030028D290 /* MHDTableViewViewController.h */,
+				AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */,
+				AE8F6D461C719FD20028D290 /* MHDTableCell.h */,
+				AE8F6D471C719FD20028D290 /* MHDTableCell.m */,
+				AE40CECF1C71AEC30072A125 /* MHDNavigationViewController.h */,
+				AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		AE40CED21C71BE930072A125 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CEED1C71E0B90072A125 /* MHDMainController.h */,
+				AE40CEEE1C71E0B90072A125 /* MHDMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE40CED31C71BE930072A125 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IO;
+			sourceTree = "<group>";
+		};
+		AE40CED41C71BE930072A125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CEEA1C71C3550072A125 /* MentalAdModel.h */,
+				AE40CEEB1C71C3550072A125 /* MentalAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE40CED51C71BE930072A125 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CED61C71BE930072A125 /* Cell */,
+				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
+				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
+				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AE40CED61C71BE930072A125 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CED71C71BE930072A125 /* MHDMainCell.h */,
+				AE40CED81C71BE930072A125 /* MHDMainCell.m */,
+				AE40CED91C71BE930072A125 /* MHDMainCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE40CEE61C71C1F90072A125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CEE71C71C2140072A125 /* MHDModel.h */,
+				AE40CEE81C71C2140072A125 /* MHDModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE8F6D2A1C6A06120028D290 /* MHDMain */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CED21C71BE930072A125 /* Controller */,
+				AE40CED31C71BE930072A125 /* IO */,
+				AE40CED41C71BE930072A125 /* Model */,
+				AE40CED51C71BE930072A125 /* UI */,
+			);
+			path = MHDMain;
 			sourceTree = "<group>";
 		};
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
@@ -496,8 +603,10 @@
 				622529871BC8E01F0006D876 /* cuimian.png in Resources */,
 				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
 				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
+				AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 				622529801BC8B6F80006D876 /* docHead.jpg in Resources */,
+				AE40CEDE1C71BE930072A125 /* MHDMainCell.xib in Resources */,
 				622529821BC8B9710006D876 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,15 +659,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
+				AE40CEEC1C71C3550072A125 /* MentalAdModel.m in Sources */,
 				6225299D1BC90C2B0006D876 /* MHDActivityDetailTableView.m in Sources */,
 				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
 				6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */,
 				6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */,
 				6225299A1BC90C130006D876 /* MHDActivityDetailHeadView.m in Sources */,
+				AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */,
 				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
+				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
+				AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */,
 				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,
 				626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
@@ -566,13 +679,18 @@
 				628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */,
 				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
+				AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */,
 				622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */,
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
+				AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */,
 				622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
 				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
+				AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */,
+				AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
+				AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +794,7 @@
 			baseConfigurationReference = F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
@@ -694,6 +813,7 @@
 			baseConfigurationReference = 9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",

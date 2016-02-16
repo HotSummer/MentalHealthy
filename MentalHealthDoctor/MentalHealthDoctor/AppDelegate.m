@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import <Common/SZBaseTabBarViewController.h>
 #import "MHDActivityController.h"
+#import "MHDMainTableViewViewController.h"
+#import "MHDNavigationViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -22,9 +25,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    MHDActivityController *transitionControl = [[MHDActivityController alloc] init];
-    UINavigationController *rootNavigation = [[UINavigationController alloc] initWithRootViewController:transitionControl];
-    [self.window setRootViewController:rootNavigation];
+//    MHDActivityController *transitionControl = [[MHDActivityController alloc] init];
+//    UINavigationController *rootNavigation = [[UINavigationController alloc] initWithRootViewController:transitionControl];
+    MHDMainTableViewViewController *mainVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MHDMainTableViewViewControllerStoryboardId"];
+    MHDNavigationViewController *nav = [[MHDNavigationViewController alloc] initWithRootViewController:mainVC];
+    [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,7 +7,6 @@
 //
 
 #import "MHDDocDetailTableViewCell.h"
-#import <SBModule/SBCONSTANT.h>
 
 
 @implementation MHDDocDetailPriceCell

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61277DBCA2332A57D92ABC43FF3614EDC544A15D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "61277DBCA2332A57D92ABC43FF3614EDC544A15D" : 0,
+    "9E386A1B8A0D1D1D5BCE0736D734A583C5237181" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61A1A51C-16D8-4708-B4F5-7C196ABCEDB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "61277DBCA2332A57D92ABC43FF3614EDC544A15D" : "Code\/",
+    "9E386A1B8A0D1D1D5BCE0736D734A583C5237181" : "Code\/MentalHealthDoctor\/Common\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MentalHealthDoctor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MentalHealthDoctor\/MentalHealthDoctor.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HotSummer\/MentalHealthy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61277DBCA2332A57D92ABC43FF3614EDC544A15D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HotSummer\/Common.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E386A1B8A0D1D1D5BCE0736D734A583C5237181"
+    }
+  ]
+}
