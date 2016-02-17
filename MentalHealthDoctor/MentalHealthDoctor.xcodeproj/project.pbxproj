@@ -64,6 +64,8 @@
 		AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */; };
 		AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */; };
 		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
+		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
+		C4FD443A1C747E1D00023C13 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44391C747E1D00023C13 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,10 @@
 		AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewViewController.m; sourceTree = "<group>"; };
 		AE8F6D461C719FD20028D290 /* MHDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableCell.h; sourceTree = "<group>"; };
 		AE8F6D471C719FD20028D290 /* MHDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableCell.m; sourceTree = "<group>"; };
+		C4FD44351C7476E300023C13 /* UIView+FontStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontStandard.h"; sourceTree = "<group>"; };
+		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
+		C4FD44381C747E1D00023C13 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C4FD44391C747E1D00023C13 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -405,6 +411,7 @@
 		797DF2AC1B8CB74600617C58 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C4FD44341C7476E300023C13 /* FontStandard */,
 				A92A71321BC12743000034E9 /* MHDTabbarView.h */,
 				A92A71331BC12743000034E9 /* MHDTabbarView.m */,
 				628822201BC63C5900904B90 /* MHDBasicController.h */,
@@ -453,6 +460,8 @@
 				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
 				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
 				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
+				C4FD44381C747E1D00023C13 /* SecondViewController.h */,
+				C4FD44391C747E1D00023C13 /* SecondViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -507,6 +516,15 @@
 				5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FD44341C7476E300023C13 /* FontStandard */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD44351C7476E300023C13 /* UIView+FontStandard.h */,
+				C4FD44361C7476E300023C13 /* UIView+FontStandard.m */,
+			);
+			path = FontStandard;
 			sourceTree = "<group>";
 		};
 		F90E30CEA46F67C03CCB9A50 /* Pods */ = {
@@ -668,8 +686,10 @@
 				AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */,
 				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
+				C4FD443A1C747E1D00023C13 /* SecondViewController.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
+				C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
 				AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */,
 				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,

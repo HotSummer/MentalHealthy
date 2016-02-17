@@ -16,8 +16,7 @@
     
     self.navigationController.navigationBar.translucent = NO;
     
-    UIImageView *imageview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navTitle.png"]];
-    [self showNavTitle:imageview];
+    
     
     self.tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
 }

@@ -13,4 +13,5 @@
 #import <Common/CommonDefine.h>
 #import <SBModule/SBCONSTANT.h>
 #import <Common/UIImageView+SDWebImage.h>
+#import <Masonry.h>
 #endif
