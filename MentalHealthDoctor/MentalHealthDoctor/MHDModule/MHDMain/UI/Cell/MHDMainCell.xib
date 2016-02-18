@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -16,12 +16,14 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page01" translatesAutoresizingMaskIntoConstraints="NO" id="vN1-nN-oUa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="228.5"/>
+                        <animations/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ft3-qk-X2o">
                         <rect key="frame" x="35" y="90" width="250" height="50"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_activity" translatesAutoresizingMaskIntoConstraints="NO" id="hb4-NT-NZj">
                                 <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="Jwv-JC-5FL"/>
                                     <constraint firstAttribute="width" constant="25" id="eeJ-7z-kOf"/>
@@ -29,6 +31,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtZ-fK-4Qq">
                                 <rect key="frame" x="0.0" y="25" width="25" height="15"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="WiM-OD-dHp"/>
                                 </constraints>
@@ -38,6 +41,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MwE-zb-LY8">
                                 <rect key="frame" x="30" y="0.0" width="1" height="40"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1" id="BYZ-8I-mrh"/>
@@ -48,6 +52,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当梦在说话——" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw9-VD-qEz">
                                         <rect key="frame" x="0.0" y="0.0" width="209" height="16"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="TPa-e2-n8T"/>
                                         </constraints>
@@ -57,12 +62,14 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在盗梦空间中，对话未知的自己" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngg-9e-jCc">
                                         <rect key="frame" x="0.0" y="18" width="209" height="16"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期四2015年11月5日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zu-na-zwF">
                                         <rect key="frame" x="0.0" y="40" width="104" height="9"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="104" id="FxB-cK-wgf"/>
                                             <constraint firstAttribute="height" constant="9" id="zHI-D9-QCo"/>
@@ -73,6 +80,7 @@
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_location" translatesAutoresizingMaskIntoConstraints="NO" id="lIx-Lp-uze">
                                         <rect key="frame" x="108" y="38" width="12" height="12"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="12" id="Ouo-xH-BKh"/>
                                             <constraint firstAttribute="height" constant="12" id="fDF-kl-gBu"/>
@@ -80,6 +88,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人民广场" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEE-OS-ujb">
                                         <rect key="frame" x="122" y="40" width="87" height="9"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="9" id="OXf-vw-Aek"/>
                                         </constraints>
@@ -88,6 +97,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="ngg-9e-jCc" firstAttribute="top" secondItem="hw9-VD-qEz" secondAttribute="bottom" constant="2" id="04J-1U-YAq"/>
@@ -111,11 +121,13 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从心理学角度来看九型人格有道理吗？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udn-k9-WbV">
                                         <rect key="frame" x="0.0" y="0.0" width="209" height="40"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="udn-k9-WbV" firstAttribute="leading" secondItem="24O-M6-uM2" secondAttribute="leading" id="N8v-i3-umY"/>
@@ -123,6 +135,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iXz-fo-6Kr" firstAttribute="top" secondItem="ft3-qk-X2o" secondAttribute="top" id="0yW-A4-SZP"/>
@@ -148,6 +161,7 @@
                         </constraints>
                     </view>
                 </subviews>
+                <animations/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="vN1-nN-oUa" secondAttribute="trailing" id="FfE-82-LZB"/>
                     <constraint firstItem="vN1-nN-oUa" firstAttribute="leading" secondItem="BqX-lb-HxU" secondAttribute="leading" id="HOf-Ty-btV"/>
@@ -157,6 +171,7 @@
                     <constraint firstItem="ft3-qk-X2o" firstAttribute="centerY" secondItem="BqX-lb-HxU" secondAttribute="centerY" id="t4B-Uv-Z1H"/>
                 </constraints>
             </tableViewCellContentView>
+            <animations/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="imageviewBg" destination="vN1-nN-oUa" id="49a-Lp-FYn"/>

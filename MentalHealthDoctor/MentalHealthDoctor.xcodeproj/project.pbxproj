@@ -66,6 +66,11 @@
 		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
 		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
 		C4FD443A1C747E1D00023C13 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44391C747E1D00023C13 /* SecondViewController.m */; };
+		C4FD443E1C75975600023C13 /* MHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD443D1C75975600023C13 /* MHDView.m */; };
+		C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44401C75978B00023C13 /* MHDCityView.m */; };
+		C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FD44421C75979800023C13 /* MHDCityView.xib */; };
+		C4FD44461C759DFF00023C13 /* MHDCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44451C759DFF00023C13 /* MHDCityCell.m */; };
+		C4FD44481C759E1C00023C13 /* MHDCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FD44471C759E1C00023C13 /* MHDCityCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +183,14 @@
 		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
 		C4FD44381C747E1D00023C13 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C4FD44391C747E1D00023C13 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C4FD443C1C75975600023C13 /* MHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDView.h; sourceTree = "<group>"; };
+		C4FD443D1C75975600023C13 /* MHDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDView.m; sourceTree = "<group>"; };
+		C4FD443F1C75978B00023C13 /* MHDCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCityView.h; sourceTree = "<group>"; };
+		C4FD44401C75978B00023C13 /* MHDCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDCityView.m; sourceTree = "<group>"; };
+		C4FD44421C75979800023C13 /* MHDCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDCityView.xib; sourceTree = "<group>"; };
+		C4FD44441C759DFF00023C13 /* MHDCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCityCell.h; sourceTree = "<group>"; };
+		C4FD44451C759DFF00023C13 /* MHDCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDCityCell.m; sourceTree = "<group>"; };
+		C4FD44471C759E1C00023C13 /* MHDCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDCityCell.xib; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -424,6 +437,8 @@
 				AE8F6D471C719FD20028D290 /* MHDTableCell.m */,
 				AE40CECF1C71AEC30072A125 /* MHDNavigationViewController.h */,
 				AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */,
+				C4FD443C1C75975600023C13 /* MHDView.h */,
+				C4FD443D1C75975600023C13 /* MHDView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -456,6 +471,7 @@
 		AE40CED51C71BE930072A125 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C4FD443B1C7596FA00023C13 /* View */,
 				AE40CED61C71BE930072A125 /* Cell */,
 				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
 				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
@@ -472,6 +488,9 @@
 				AE40CED71C71BE930072A125 /* MHDMainCell.h */,
 				AE40CED81C71BE930072A125 /* MHDMainCell.m */,
 				AE40CED91C71BE930072A125 /* MHDMainCell.xib */,
+				C4FD44441C759DFF00023C13 /* MHDCityCell.h */,
+				C4FD44451C759DFF00023C13 /* MHDCityCell.m */,
+				C4FD44471C759E1C00023C13 /* MHDCityCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -525,6 +544,16 @@
 				C4FD44361C7476E300023C13 /* UIView+FontStandard.m */,
 			);
 			path = FontStandard;
+			sourceTree = "<group>";
+		};
+		C4FD443B1C7596FA00023C13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD443F1C75978B00023C13 /* MHDCityView.h */,
+				C4FD44401C75978B00023C13 /* MHDCityView.m */,
+				C4FD44421C75979800023C13 /* MHDCityView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F90E30CEA46F67C03CCB9A50 /* Pods */ = {
@@ -622,9 +651,11 @@
 				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
 				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
 				AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */,
+				C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 				622529801BC8B6F80006D876 /* docHead.jpg in Resources */,
 				AE40CEDE1C71BE930072A125 /* MHDMainCell.xib in Resources */,
+				C4FD44481C759E1C00023C13 /* MHDCityCell.xib in Resources */,
 				622529821BC8B9710006D876 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,8 +721,10 @@
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
 				C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */,
+				C4FD44461C759DFF00023C13 /* MHDCityCell.m in Sources */,
 				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
 				AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */,
+				C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */,
 				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,
 				626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */,
 				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
@@ -708,6 +741,7 @@
 				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
 				AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */,
 				AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */,
+				C4FD443E1C75975600023C13 /* MHDView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
 				AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */,

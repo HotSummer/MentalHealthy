@@ -9,11 +9,16 @@
 #import "MHDMainTableViewViewController.h"
 #import "MHDMainController.h"
 #import "MHDMainCell.h"
+#import "MHDCityView.h"
 
 @interface MHDMainTableViewViewController ()
+<
+MHDCityDelegate
+>
 
 @property (weak, nonatomic) IBOutlet UIButton *btnSearch;
 @property (nonatomic, strong) UILabel *lblCity;
+@property (nonatomic, strong) MHDCityView *cityView;
 
 @end
 
@@ -85,20 +90,43 @@
 }
 
 - (void)selectCity:(UIGestureRecognizer *)gesture{
-    
+    if (!self.cityView.superview) {
+        [self.view addSubview:self.cityView];
+        _cityView.delegate = self;
+        [_cityView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(@0);
+            make.bottom.mas_equalTo(@0);
+            make.left.mas_equalTo(@0);
+            make.right.mas_equalTo(@0);
+        }];
+    }
+}
+
+- (MHDCityView *)cityView{
+    if (!_cityView) {
+        _cityView = [MHDCityView initializeUI];
+        _cityView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.8];
+    }
+    return _cityView;
+}
+
+#pragma mark - MHDCityDelegate
+- (void)selectedCity:(NSString *)cityName{
+    _lblCity.text = cityName;
+    [_cityView removeFromSuperview];
 }
 
 #pragma mark - tableview delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-        self.definesPresentationContext = YES; //self is presenting view controller
-        UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SecondViewController"];
-        
-        vc.view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.4];
-        vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
-        [self.navigationController presentViewController:vc animated:NO completion:^{
-            
-        }];
+//        self.definesPresentationContext = YES; //self is presenting view controller
+//        UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SecondViewController"];
+//        
+//        vc.view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.4];
+//        vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+//        [self.navigationController presentViewController:vc animated:NO completion:^{
+//            
+//        }];
 //        [self presentModalViewController:vc animated:YES];
     }
 }
