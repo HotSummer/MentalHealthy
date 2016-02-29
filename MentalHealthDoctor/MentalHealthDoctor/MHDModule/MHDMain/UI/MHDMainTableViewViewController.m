@@ -7,6 +7,7 @@
 //
 
 #import "MHDMainTableViewViewController.h"
+#import <Common/FXBlurView.h>
 #import "MHDMainController.h"
 #import "MHDMainCell.h"
 #import "MHDCityView.h"
@@ -17,8 +18,12 @@ MHDCityDelegate
 >
 
 @property (weak, nonatomic) IBOutlet UIButton *btnSearch;
+@property (assign, nonatomic) BOOL bSearchRotate;
 @property (nonatomic, strong) UILabel *lblCity;
 @property (nonatomic, strong) MHDCityView *cityView;
+@property (nonatomic, strong) FXBlurView *fxView;
+
+- (IBAction)didPressedBtnSearch:(id)sender;
 
 @end
 
@@ -91,6 +96,9 @@ MHDCityDelegate
 
 - (void)selectCity:(UIGestureRecognizer *)gesture{
     if (!self.cityView.superview) {
+        if (!self.fxView.superview) {
+            [self addSubFlurView];
+        }
         [self.view addSubview:self.cityView];
         _cityView.delegate = self;
         [_cityView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -110,16 +118,55 @@ MHDCityDelegate
     return _cityView;
 }
 
+- (FXBlurView *)fxView{
+    if (!_fxView){
+        _fxView = [[FXBlurView alloc] initWithFrame:self.view.bounds];
+        _fxView.dynamic = NO;
+        _fxView.blurRadius = 15;
+        _fxView.tintColor = [UIColor clearColor];
+    }
+    return _fxView;
+}
+
+- (IBAction)didPressedBtnSearch:(id)sender {
+    _bSearchRotate = !_bSearchRotate;
+    CGFloat fRotate = 0.0;
+    if (!_bSearchRotate) {
+        [self removeSubFxView];
+        fRotate = -M_PI_4;
+    }else{
+        [self addSubFlurView];
+        [self.view bringSubviewToFront:_btnSearch];
+        fRotate = M_PI_4;
+    }
+    [UIView animateWithDuration:0.3 animations:^{
+        _btnSearch.transform = CGAffineTransformRotate(_btnSearch.transform, fRotate);
+    }];
+}
+
+- (void)addSubFlurView{
+    [self.view addSubview:self.fxView];
+}
+
+- (void)removeSubFxView{
+    [self.fxView removeFromSuperview];
+}
+
+
 #pragma mark - MHDCityDelegate
 - (void)selectedCity:(NSString *)cityName{
     _lblCity.text = cityName;
+    if (!_bSearchRotate) {
+        [self removeSubFxView];
+    }
     [_cityView removeFromSuperview];
 }
 
 #pragma mark - tableview delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-//        self.definesPresentationContext = YES; //self is presenting view controller
+
+        //present出透明背景的viewController
 //        UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SecondViewController"];
 //        
 //        vc.view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.4];
@@ -128,6 +175,8 @@ MHDCityDelegate
 //            
 //        }];
 //        [self presentModalViewController:vc animated:YES];
+        
+        
     }
 }
 

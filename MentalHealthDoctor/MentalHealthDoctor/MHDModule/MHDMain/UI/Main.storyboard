@@ -25,6 +25,9 @@
                                     <constraint firstAttribute="height" constant="65" id="aEE-pj-Er6"/>
                                 </constraints>
                                 <state key="normal" image="main_search"/>
+                                <connections>
+                                    <action selector="didPressedBtnSearch:" destination="EcO-do-uWF" eventType="touchUpInside" id="Yx3-rE-iBi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -47,25 +50,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeR-4d-hT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2" y="437"/>
-        </scene>
-        <!--Second View Controller-->
-        <scene sceneID="T2b-h7-aLk">
-            <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="E5M-Ga-Acf" customClass="SecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="edI-dY-pZv"/>
-                        <viewControllerLayoutGuide type="bottom" id="CAz-aW-jJB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ik8-in-uAw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P5D-jv-Qbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="608" y="437"/>
         </scene>
     </scenes>
     <resources>

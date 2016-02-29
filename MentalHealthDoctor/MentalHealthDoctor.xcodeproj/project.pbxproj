@@ -64,8 +64,9 @@
 		AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */; };
 		AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */; };
 		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
+		C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */; };
+		C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */; };
 		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
-		C4FD443A1C747E1D00023C13 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44391C747E1D00023C13 /* SecondViewController.m */; };
 		C4FD443E1C75975600023C13 /* MHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD443D1C75975600023C13 /* MHDView.m */; };
 		C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44401C75978B00023C13 /* MHDCityView.m */; };
 		C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FD44421C75979800023C13 /* MHDCityView.xib */; };
@@ -179,10 +180,11 @@
 		AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewViewController.m; sourceTree = "<group>"; };
 		AE8F6D461C719FD20028D290 /* MHDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableCell.h; sourceTree = "<group>"; };
 		AE8F6D471C719FD20028D290 /* MHDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableCell.m; sourceTree = "<group>"; };
+		C44BF21A1C7DC3BE0061CF69 /* MHDSearchConsultantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchConsultantView.h; sourceTree = "<group>"; };
+		C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchConsultantView.m; sourceTree = "<group>"; };
+		C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDSearchConsultantView.xib; sourceTree = "<group>"; };
 		C4FD44351C7476E300023C13 /* UIView+FontStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontStandard.h"; sourceTree = "<group>"; };
 		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
-		C4FD44381C747E1D00023C13 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C4FD44391C747E1D00023C13 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C4FD443C1C75975600023C13 /* MHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDView.h; sourceTree = "<group>"; };
 		C4FD443D1C75975600023C13 /* MHDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDView.m; sourceTree = "<group>"; };
 		C4FD443F1C75978B00023C13 /* MHDCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCityView.h; sourceTree = "<group>"; };
@@ -476,8 +478,6 @@
 				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
 				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
 				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
-				C4FD44381C747E1D00023C13 /* SecondViewController.h */,
-				C4FD44391C747E1D00023C13 /* SecondViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -552,6 +552,9 @@
 				C4FD443F1C75978B00023C13 /* MHDCityView.h */,
 				C4FD44401C75978B00023C13 /* MHDCityView.m */,
 				C4FD44421C75979800023C13 /* MHDCityView.xib */,
+				C44BF21A1C7DC3BE0061CF69 /* MHDSearchConsultantView.h */,
+				C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */,
+				C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -647,6 +650,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */,
 				622529871BC8E01F0006D876 /* cuimian.png in Resources */,
 				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
 				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
@@ -717,7 +721,6 @@
 				AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */,
 				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
-				C4FD443A1C747E1D00023C13 /* SecondViewController.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
 				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
 				C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */,
@@ -733,6 +736,7 @@
 				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
 				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
 				AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */,
+				C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */,
 				622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */,
 				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
 				AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */,
