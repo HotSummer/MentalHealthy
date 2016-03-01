@@ -22,6 +22,7 @@ MHDCityDelegate
 @property (nonatomic, strong) UILabel *lblCity;
 @property (nonatomic, strong) MHDCityView *cityView;
 @property (nonatomic, strong) FXBlurView *fxView;
+@property (nonatomic, strong) MHDSearchConsultantView *searchConsultantView;
 
 - (IBAction)didPressedBtnSearch:(id)sender;
 
@@ -128,28 +129,54 @@ MHDCityDelegate
     return _fxView;
 }
 
-- (IBAction)didPressedBtnSearch:(id)sender {
-    _bSearchRotate = !_bSearchRotate;
-    CGFloat fRotate = 0.0;
-    if (!_bSearchRotate) {
-        [self removeSubFxView];
-        fRotate = -M_PI_4;
-    }else{
-        [self addSubFlurView];
-        [self.view bringSubviewToFront:_btnSearch];
-        fRotate = M_PI_4;
-    }
-    [UIView animateWithDuration:0.3 animations:^{
-        _btnSearch.transform = CGAffineTransformRotate(_btnSearch.transform, fRotate);
-    }];
-}
-
 - (void)addSubFlurView{
     [self.view addSubview:self.fxView];
 }
 
 - (void)removeSubFxView{
     [self.fxView removeFromSuperview];
+}
+
+- (MHDSearchConsultantView *)searchConsultantView{
+    if (!_searchConsultantView) {
+        _searchConsultantView = [MHDSearchConsultantView initializeUI];
+        _searchConsultantView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.8];
+    }
+    return _searchConsultantView;
+}
+
+- (void)addSubSearchConsultantView{
+    [self.view addSubview:self.searchConsultantView];
+    [self.searchConsultantView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@150);
+        make.width.equalTo(@280);
+        make.height.equalTo(@280);
+        make.centerX.equalTo(self.view.mas_centerX);
+    }];
+}
+
+- (void)removeSubSearchConsultantView{
+    if (self.searchConsultantView.superview) {
+        [self.searchConsultantView removeFromSuperview];
+    }
+}
+
+- (IBAction)didPressedBtnSearch:(id)sender {
+    _bSearchRotate = !_bSearchRotate;
+    CGFloat fRotate = 0.0;
+    if (!_bSearchRotate) {
+        [self removeSubFxView];
+        [self removeSubSearchConsultantView];
+        fRotate = -M_PI_4;
+    }else{
+        [self addSubFlurView];
+        [self addSubSearchConsultantView];
+        [self.view bringSubviewToFront:_btnSearch];
+        fRotate = M_PI_4;
+    }
+    [UIView animateWithDuration:0.3 animations:^{
+        _btnSearch.transform = CGAffineTransformRotate(_btnSearch.transform, fRotate);
+    }];
 }
 
 

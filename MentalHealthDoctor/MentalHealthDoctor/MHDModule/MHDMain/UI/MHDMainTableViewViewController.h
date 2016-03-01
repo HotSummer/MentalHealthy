@@ -7,6 +7,7 @@
 //
 
 #import "MHDTableViewViewController.h"
+#import "MHDSearchConsultantView.h"
 
 @interface MHDMainTableViewViewController : MHDTableViewViewController
 
