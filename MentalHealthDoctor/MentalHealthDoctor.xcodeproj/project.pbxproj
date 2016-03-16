@@ -7,19 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79674CE61BB45701005E560F /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79674CE51BB45701005E560F /* Test.storyboard */; };
-		79674CE91BB4578E005E560F /* MHDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79674CE81BB4578E005E560F /* MHDTestViewController.m */; };
+		622529801BC8B6F80006D876 /* docHead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6225297F1BC8B6F80006D876 /* docHead.jpg */; };
+		622529821BC8B9710006D876 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 622529811BC8B9710006D876 /* star.png */; };
+		622529871BC8E01F0006D876 /* cuimian.png in Resources */ = {isa = PBXBuildFile; fileRef = 622529861BC8E01F0006D876 /* cuimian.png */; };
+		6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225298A1BC8E1370006D876 /* MHDDocDetailController.m */; };
+		6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */; };
+		622529941BC8E3490006D876 /* MHDDocDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */; };
+		622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */; };
+		6225299A1BC90C130006D876 /* MHDActivityDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */; };
+		6225299D1BC90C2B0006D876 /* MHDActivityDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */; };
+		622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */; };
+		622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */; };
+		626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B31BC795C200E8A52C /* MHDDocListController.m */; };
+		626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */; };
+		626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */; };
+		628822221BC63C5900904B90 /* MHDBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822211BC63C5900904B90 /* MHDBasicController.m */; };
+		628822301BC6538100904B90 /* MHDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288222F1BC6538100904B90 /* MHDTestController.m */; };
+		628822331BC6538D00904B90 /* MHDFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822321BC6538D00904B90 /* MHDFindController.m */; };
+		628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822351BC653AD00904B90 /* MHDFindDocController.m */; };
+		628822391BC653C500904B90 /* MHDMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822381BC653C500904B90 /* MHDMineController.m */; };
+		628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223E1BC658E000904B90 /* sb_nav_back@2x.png */; };
+		628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */; };
+		6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822461BC65F3200904B90 /* MHDActivityDetailController.m */; };
+		6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822491BC65F3200904B90 /* MHDActivityController.m */; };
+		6288227E1BC662AE00904B90 /* SBModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227D1BC662AE00904B90 /* SBModule.framework */; };
+		628822801BC662D400904B90 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6288227F1BC662D400904B90 /* libsqlite3.dylib */; };
+		628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822821BC6643A00904B90 /* MHDActivityTableView.m */; };
+		628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 628822851BC664AD00904B90 /* MHDActivityTableCell.m */; };
 		7976ECB51B838F93005FC141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB41B838F93005FC141 /* main.m */; };
 		7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECB71B838F93005FC141 /* AppDelegate.m */; };
-		7976ECBB1B838F93005FC141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* ViewController.m */; };
-		7976ECBE1B838F93005FC141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7976ECBC1B838F93005FC141 /* Main.storyboard */; };
+		7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECBA1B838F93005FC141 /* MHDTransitionController.m */; };
 		7976ECC01B838F93005FC141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7976ECBF1B838F93005FC141 /* Images.xcassets */; };
-		7976ECC31B838F93005FC141 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7976ECC11B838F93005FC141 /* LaunchScreen.xib */; };
 		7976ECCF1B838F93005FC141 /* MentalHealthDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976ECCE1B838F93005FC141 /* MentalHealthDoctorTests.m */; };
-		797DF2A51B8CA75700617C58 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797DF2A21B8CA75700617C58 /* Activity.storyboard */; };
-		797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */; };
-		797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */; };
-		797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */; };
 		79AF9EC31BB3136800D6AC08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC21BB3136800D6AC08 /* CoreData.framework */; };
 		79AF9EC51BB3138100D6AC08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC41BB3138100D6AC08 /* SystemConfiguration.framework */; };
 		79AF9EC71BB3138800D6AC08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9EC61BB3138800D6AC08 /* CFNetwork.framework */; };
@@ -32,11 +51,27 @@
 		79AF9ED51BB313C300D6AC08 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED41BB313C300D6AC08 /* libxml2.dylib */; };
 		79AF9ED71BB313D700D6AC08 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AF9ED61BB313D600D6AC08 /* libresolv.dylib */; };
 		79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3E4E71B8A0E230077EFA3 /* Common.framework */; };
-		79D3E4F11B8A13990077EFA3 /* MHDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */; };
-		79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4F51B8A15160077EFA3 /* Search.storyboard */; };
-		79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */; };
-		79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */; };
 		814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */; };
+		A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92A71331BC12743000034E9 /* MHDTabbarView.m */; };
+		AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */; };
+		AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CED81C71BE930072A125 /* MHDMainCell.m */; };
+		AE40CEDE1C71BE930072A125 /* MHDMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE40CED91C71BE930072A125 /* MHDMainCell.xib */; };
+		AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE40CEDA1C71BE930072A125 /* Main.storyboard */; };
+		AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */; };
+		AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEE81C71C2140072A125 /* MHDModel.m */; };
+		AE40CEEC1C71C3550072A125 /* MentalAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEEB1C71C3550072A125 /* MentalAdModel.m */; };
+		AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40CEEE1C71E0B90072A125 /* MHDMainController.m */; };
+		AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */; };
+		AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */; };
+		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
+		C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */; };
+		C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */; };
+		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
+		C4FD443E1C75975600023C13 /* MHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD443D1C75975600023C13 /* MHDView.m */; };
+		C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44401C75978B00023C13 /* MHDCityView.m */; };
+		C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FD44421C75979800023C13 /* MHDCityView.xib */; };
+		C4FD44461C759DFF00023C13 /* MHDCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44451C759DFF00023C13 /* MHDCityCell.m */; };
+		C4FD44481C759E1C00023C13 /* MHDCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FD44471C759E1C00023C13 /* MHDCityCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,29 +86,65 @@
 
 /* Begin PBXFileReference section */
 		5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		79674CE51BB45701005E560F /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
-		79674CE71BB4578E005E560F /* MHDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestViewController.h; sourceTree = "<group>"; };
-		79674CE81BB4578E005E560F /* MHDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTestViewController.m; sourceTree = "<group>"; };
+		6225297F1BC8B6F80006D876 /* docHead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = docHead.jpg; sourceTree = "<group>"; };
+		622529811BC8B9710006D876 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		622529861BC8E01F0006D876 /* cuimian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuimian.png; sourceTree = "<group>"; };
+		622529891BC8E1370006D876 /* MHDDocDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailController.h; sourceTree = "<group>"; };
+		6225298A1BC8E1370006D876 /* MHDDocDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailController.m; sourceTree = "<group>"; };
+		6225298C1BC8E1FE0006D876 /* MHDDocDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailHeadView.h; sourceTree = "<group>"; };
+		6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailHeadView.m; sourceTree = "<group>"; };
+		622529921BC8E3490006D876 /* MHDDocDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailTableViewCell.h; sourceTree = "<group>"; };
+		622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableViewCell.m; sourceTree = "<group>"; };
+		622529951BC8E36A0006D876 /* MHDDocDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocDetailTableView.h; sourceTree = "<group>"; };
+		622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocDetailTableView.m; sourceTree = "<group>"; };
+		622529981BC90C130006D876 /* MHDActivityDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailHeadView.h; sourceTree = "<group>"; };
+		622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailHeadView.m; sourceTree = "<group>"; };
+		6225299B1BC90C2B0006D876 /* MHDActivityDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailTableView.h; sourceTree = "<group>"; };
+		6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailTableView.m; sourceTree = "<group>"; };
+		6225299E1BC90C680006D876 /* MHDActivityDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailTableViewCell.h; sourceTree = "<group>"; };
+		6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailTableViewCell.m; sourceTree = "<group>"; };
+		622529A11BC90C7D0006D876 /* MHDActivityDetailBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailBottomView.h; sourceTree = "<group>"; };
+		622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailBottomView.m; sourceTree = "<group>"; };
+		626759B21BC795C200E8A52C /* MHDDocListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocListController.h; sourceTree = "<group>"; };
+		626759B31BC795C200E8A52C /* MHDDocListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocListController.m; sourceTree = "<group>"; };
+		626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableView.h; sourceTree = "<group>"; };
+		626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocTableView.m; sourceTree = "<group>"; };
+		626759B81BC7B03600E8A52C /* MHDDocTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDDocTableViewCell.h; sourceTree = "<group>"; };
+		626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDDocTableViewCell.m; sourceTree = "<group>"; };
+		628822201BC63C5900904B90 /* MHDBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDBasicController.h; sourceTree = "<group>"; };
+		628822211BC63C5900904B90 /* MHDBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBasicController.m; sourceTree = "<group>"; };
+		6288222E1BC6538100904B90 /* MHDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTestController.h; sourceTree = "<group>"; };
+		6288222F1BC6538100904B90 /* MHDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTestController.m; sourceTree = "<group>"; };
+		628822311BC6538D00904B90 /* MHDFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDFindController.h; sourceTree = "<group>"; };
+		628822321BC6538D00904B90 /* MHDFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDFindController.m; sourceTree = "<group>"; };
+		628822341BC653AD00904B90 /* MHDFindDocController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDFindDocController.h; sourceTree = "<group>"; };
+		628822351BC653AD00904B90 /* MHDFindDocController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDFindDocController.m; sourceTree = "<group>"; };
+		628822371BC653C500904B90 /* MHDMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineController.h; sourceTree = "<group>"; };
+		628822381BC653C500904B90 /* MHDMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineController.m; sourceTree = "<group>"; };
+		6288223E1BC658E000904B90 /* sb_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back@2x.png"; sourceTree = "<group>"; };
+		6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sb_nav_back_blue@2x.png"; sourceTree = "<group>"; };
+		628822451BC65F3200904B90 /* MHDActivityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityDetailController.h; sourceTree = "<group>"; };
+		628822461BC65F3200904B90 /* MHDActivityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityDetailController.m; sourceTree = "<group>"; };
+		628822481BC65F3200904B90 /* MHDActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityController.h; sourceTree = "<group>"; };
+		628822491BC65F3200904B90 /* MHDActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityController.m; sourceTree = "<group>"; };
+		6288224C1BC65FFB00904B90 /* MHDModule-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MHDModule-Prefix.pch"; sourceTree = "<group>"; };
+		6288227D1BC662AE00904B90 /* SBModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBModule.framework; sourceTree = "<group>"; };
+		6288227F1BC662D400904B90 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		628822811BC6643A00904B90 /* MHDActivityTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityTableView.h; sourceTree = "<group>"; };
+		628822821BC6643A00904B90 /* MHDActivityTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityTableView.m; sourceTree = "<group>"; };
+		628822841BC664AD00904B90 /* MHDActivityTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityTableCell.h; sourceTree = "<group>"; };
+		628822851BC664AD00904B90 /* MHDActivityTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityTableCell.m; sourceTree = "<group>"; };
 		7976ECAF1B838F93005FC141 /* MentalHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECB31B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECB41B838F93005FC141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7976ECB61B838F93005FC141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7976ECB71B838F93005FC141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7976ECB91B838F93005FC141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7976ECBA1B838F93005FC141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7976ECBD1B838F93005FC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7976ECB91B838F93005FC141 /* MHDTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHDTransitionController.h; sourceTree = "<group>"; };
+		7976ECBA1B838F93005FC141 /* MHDTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHDTransitionController.m; sourceTree = "<group>"; };
 		7976ECBF1B838F93005FC141 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7976ECC21B838F93005FC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7976ECC81B838F93005FC141 /* MentalHealthDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7976ECCD1B838F93005FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7976ECCE1B838F93005FC141 /* MentalHealthDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalHealthDoctorTests.m; sourceTree = "<group>"; };
-		797DF2A21B8CA75700617C58 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
-		797DF2A31B8CA75700617C58 /* MHDActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDActivityViewController.h; sourceTree = "<group>"; };
-		797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDActivityViewController.m; sourceTree = "<group>"; };
-		797DF2AD1B8CB76000617C58 /* MHDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableViewController.h; sourceTree = "<group>"; };
-		797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewController.m; sourceTree = "<group>"; };
-		797DF2B01B8CB7A200617C58 /* MHDSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchTableViewController.h; sourceTree = "<group>"; };
-		797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchTableViewController.m; sourceTree = "<group>"; };
 		79AF9EC21BB3136800D6AC08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		79AF9EC41BB3138100D6AC08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79AF9EC61BB3138800D6AC08 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -86,13 +157,42 @@
 		79AF9ED41BB313C300D6AC08 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		79AF9ED61BB313D600D6AC08 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		79D3E4E71B8A0E230077EFA3 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = Common/Common/buildProducts/Common.framework; sourceTree = "<group>"; };
-		79D3E4EF1B8A13990077EFA3 /* MHDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabBarViewController.h; sourceTree = "<group>"; };
-		79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabBarViewController.m; sourceTree = "<group>"; };
-		79D3E4F51B8A15160077EFA3 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
-		79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
-		79D3E5001B8A167C0077EFA3 /* MHDMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMineViewController.h; sourceTree = "<group>"; };
-		79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMineViewController.m; sourceTree = "<group>"; };
 		9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A92A71321BC12743000034E9 /* MHDTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTabbarView.h; sourceTree = "<group>"; };
+		A92A71331BC12743000034E9 /* MHDTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTabbarView.m; sourceTree = "<group>"; };
+		AE40CECF1C71AEC30072A125 /* MHDNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDNavigationViewController.h; sourceTree = "<group>"; };
+		AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDNavigationViewController.m; sourceTree = "<group>"; };
+		AE40CED71C71BE930072A125 /* MHDMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainCell.h; sourceTree = "<group>"; };
+		AE40CED81C71BE930072A125 /* MHDMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainCell.m; sourceTree = "<group>"; };
+		AE40CED91C71BE930072A125 /* MHDMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDMainCell.xib; sourceTree = "<group>"; };
+		AE40CEDA1C71BE930072A125 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainTableViewViewController.h; sourceTree = "<group>"; };
+		AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainTableViewViewController.m; sourceTree = "<group>"; };
+		AE40CEE71C71C2140072A125 /* MHDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDModel.h; sourceTree = "<group>"; };
+		AE40CEE81C71C2140072A125 /* MHDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDModel.m; sourceTree = "<group>"; };
+		AE40CEEA1C71C3550072A125 /* MentalAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentalAdModel.h; sourceTree = "<group>"; };
+		AE40CEEB1C71C3550072A125 /* MentalAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentalAdModel.m; sourceTree = "<group>"; };
+		AE40CEED1C71E0B90072A125 /* MHDMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDMainController.h; sourceTree = "<group>"; };
+		AE40CEEE1C71E0B90072A125 /* MHDMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDMainController.m; sourceTree = "<group>"; };
+		AE8F6D271C6A05820028D290 /* MHDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDBaseViewController.h; sourceTree = "<group>"; };
+		AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDBaseViewController.m; sourceTree = "<group>"; };
+		AE8F6D3D1C7185030028D290 /* MHDTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableViewViewController.h; sourceTree = "<group>"; };
+		AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableViewViewController.m; sourceTree = "<group>"; };
+		AE8F6D461C719FD20028D290 /* MHDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDTableCell.h; sourceTree = "<group>"; };
+		AE8F6D471C719FD20028D290 /* MHDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDTableCell.m; sourceTree = "<group>"; };
+		C44BF21A1C7DC3BE0061CF69 /* MHDSearchConsultantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchConsultantView.h; sourceTree = "<group>"; };
+		C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchConsultantView.m; sourceTree = "<group>"; };
+		C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDSearchConsultantView.xib; sourceTree = "<group>"; };
+		C4FD44351C7476E300023C13 /* UIView+FontStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontStandard.h"; sourceTree = "<group>"; };
+		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
+		C4FD443C1C75975600023C13 /* MHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDView.h; sourceTree = "<group>"; };
+		C4FD443D1C75975600023C13 /* MHDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDView.m; sourceTree = "<group>"; };
+		C4FD443F1C75978B00023C13 /* MHDCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCityView.h; sourceTree = "<group>"; };
+		C4FD44401C75978B00023C13 /* MHDCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDCityView.m; sourceTree = "<group>"; };
+		C4FD44421C75979800023C13 /* MHDCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDCityView.xib; sourceTree = "<group>"; };
+		C4FD44441C759DFF00023C13 /* MHDCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDCityCell.h; sourceTree = "<group>"; };
+		C4FD44451C759DFF00023C13 /* MHDCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDCityCell.m; sourceTree = "<group>"; };
+		C4FD44471C759E1C00023C13 /* MHDCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDCityCell.xib; sourceTree = "<group>"; };
 		F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628822801BC662D400904B90 /* libsqlite3.dylib in Frameworks */,
 				79AF9ED71BB313D700D6AC08 /* libresolv.dylib in Frameworks */,
 				79AF9ED51BB313C300D6AC08 /* libxml2.dylib in Frameworks */,
 				79AF9ED31BB313BD00D6AC08 /* libxml2.2.dylib in Frameworks */,
@@ -114,6 +215,7 @@
 				79AF9EC31BB3136800D6AC08 /* CoreData.framework in Frameworks */,
 				814E95E2E0B5A52E0BE653EC /* libPods.a in Frameworks */,
 				79D3E4E81B8A0E230077EFA3 /* Common.framework in Frameworks */,
+				6288227E1BC662AE00904B90 /* SBModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,14 +229,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79674CE41BB456EC005E560F /* Test */ = {
+		622529881BC8E1370006D876 /* MHDDocDetail */ = {
 			isa = PBXGroup;
 			children = (
-				79674CE51BB45701005E560F /* Test.storyboard */,
-				79674CE71BB4578E005E560F /* MHDTestViewController.h */,
-				79674CE81BB4578E005E560F /* MHDTestViewController.m */,
+				622529891BC8E1370006D876 /* MHDDocDetailController.h */,
+				6225298A1BC8E1370006D876 /* MHDDocDetailController.m */,
+				6225298C1BC8E1FE0006D876 /* MHDDocDetailHeadView.h */,
+				6225298D1BC8E1FE0006D876 /* MHDDocDetailHeadView.m */,
+				622529951BC8E36A0006D876 /* MHDDocDetailTableView.h */,
+				622529961BC8E36A0006D876 /* MHDDocDetailTableView.m */,
+				622529921BC8E3490006D876 /* MHDDocDetailTableViewCell.h */,
+				622529931BC8E3490006D876 /* MHDDocDetailTableViewCell.m */,
 			);
-			path = Test;
+			path = MHDDocDetail;
+			sourceTree = "<group>";
+		};
+		628822251BC6414B00904B90 /* MHDModule */ = {
+			isa = PBXGroup;
+			children = (
+				AE8F6D2A1C6A06120028D290 /* MHDMain */,
+				628822281BC6417F00904B90 /* MHDActivity */,
+				628822271BC6414B00904B90 /* MHDTest */,
+				628822291BC6417F00904B90 /* MHDFind */,
+				6288222A1BC6417F00904B90 /* MHDFindDoc */,
+				628822261BC6414B00904B90 /* MHDMine */,
+			);
+			path = MHDModule;
+			sourceTree = "<group>";
+		};
+		628822261BC6414B00904B90 /* MHDMine */ = {
+			isa = PBXGroup;
+			children = (
+				628822371BC653C500904B90 /* MHDMineController.h */,
+				628822381BC653C500904B90 /* MHDMineController.m */,
+			);
+			path = MHDMine;
+			sourceTree = "<group>";
+		};
+		628822271BC6414B00904B90 /* MHDTest */ = {
+			isa = PBXGroup;
+			children = (
+				6288222E1BC6538100904B90 /* MHDTestController.h */,
+				6288222F1BC6538100904B90 /* MHDTestController.m */,
+			);
+			path = MHDTest;
+			sourceTree = "<group>";
+		};
+		628822281BC6417F00904B90 /* MHDActivity */ = {
+			isa = PBXGroup;
+			children = (
+				628822471BC65F3200904B90 /* MHDActivityList */,
+				628822441BC65F3200904B90 /* MHDActivityDetail */,
+			);
+			path = MHDActivity;
+			sourceTree = "<group>";
+		};
+		628822291BC6417F00904B90 /* MHDFind */ = {
+			isa = PBXGroup;
+			children = (
+				628822311BC6538D00904B90 /* MHDFindController.h */,
+				628822321BC6538D00904B90 /* MHDFindController.m */,
+			);
+			path = MHDFind;
+			sourceTree = "<group>";
+		};
+		6288222A1BC6417F00904B90 /* MHDFindDoc */ = {
+			isa = PBXGroup;
+			children = (
+				628822341BC653AD00904B90 /* MHDFindDocController.h */,
+				628822351BC653AD00904B90 /* MHDFindDocController.m */,
+				626759B21BC795C200E8A52C /* MHDDocListController.h */,
+				626759B31BC795C200E8A52C /* MHDDocListController.m */,
+				626759B51BC7AFFE00E8A52C /* MHDDocTableView.h */,
+				626759B61BC7AFFE00E8A52C /* MHDDocTableView.m */,
+				626759B81BC7B03600E8A52C /* MHDDocTableViewCell.h */,
+				626759B91BC7B03600E8A52C /* MHDDocTableViewCell.m */,
+				622529881BC8E1370006D876 /* MHDDocDetail */,
+			);
+			path = MHDFindDoc;
+			sourceTree = "<group>";
+		};
+		6288223D1BC658E000904B90 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				622529861BC8E01F0006D876 /* cuimian.png */,
+				622529811BC8B9710006D876 /* star.png */,
+				6225297F1BC8B6F80006D876 /* docHead.jpg */,
+				6288223E1BC658E000904B90 /* sb_nav_back@2x.png */,
+				6288223F1BC658E000904B90 /* sb_nav_back_blue@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		628822441BC65F3200904B90 /* MHDActivityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				628822451BC65F3200904B90 /* MHDActivityDetailController.h */,
+				628822461BC65F3200904B90 /* MHDActivityDetailController.m */,
+				622529981BC90C130006D876 /* MHDActivityDetailHeadView.h */,
+				622529991BC90C130006D876 /* MHDActivityDetailHeadView.m */,
+				6225299B1BC90C2B0006D876 /* MHDActivityDetailTableView.h */,
+				6225299C1BC90C2B0006D876 /* MHDActivityDetailTableView.m */,
+				6225299E1BC90C680006D876 /* MHDActivityDetailTableViewCell.h */,
+				6225299F1BC90C680006D876 /* MHDActivityDetailTableViewCell.m */,
+				622529A11BC90C7D0006D876 /* MHDActivityDetailBottomView.h */,
+				622529A21BC90C7D0006D876 /* MHDActivityDetailBottomView.m */,
+			);
+			path = MHDActivityDetail;
+			sourceTree = "<group>";
+		};
+		628822471BC65F3200904B90 /* MHDActivityList */ = {
+			isa = PBXGroup;
+			children = (
+				628822481BC65F3200904B90 /* MHDActivityController.h */,
+				628822491BC65F3200904B90 /* MHDActivityController.m */,
+				628822811BC6643A00904B90 /* MHDActivityTableView.h */,
+				628822821BC6643A00904B90 /* MHDActivityTableView.m */,
+				628822841BC664AD00904B90 /* MHDActivityTableCell.h */,
+				628822851BC664AD00904B90 /* MHDActivityTableCell.m */,
+			);
+			path = MHDActivityList;
 			sourceTree = "<group>";
 		};
 		7976ECA61B838F93005FC141 = {
@@ -161,14 +375,13 @@
 			isa = PBXGroup;
 			children = (
 				797DF2AB1B8CB71F00617C58 /* Base */,
-				79D3E4EC1B8A13300077EFA3 /* Module */,
+				628822251BC6414B00904B90 /* MHDModule */,
 				7976ECB61B838F93005FC141 /* AppDelegate.h */,
 				7976ECB71B838F93005FC141 /* AppDelegate.m */,
-				7976ECB91B838F93005FC141 /* ViewController.h */,
-				7976ECBA1B838F93005FC141 /* ViewController.m */,
-				7976ECBC1B838F93005FC141 /* Main.storyboard */,
+				7976ECB91B838F93005FC141 /* MHDTransitionController.h */,
+				7976ECBA1B838F93005FC141 /* MHDTransitionController.m */,
+				6288223D1BC658E000904B90 /* Resource */,
 				7976ECBF1B838F93005FC141 /* Images.xcassets */,
-				7976ECC11B838F93005FC141 /* LaunchScreen.xib */,
 				7976ECB21B838F93005FC141 /* Supporting Files */,
 			);
 			path = MentalHealthDoctor;
@@ -177,6 +390,7 @@
 		7976ECB21B838F93005FC141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6288224C1BC65FFB00904B90 /* MHDModule-Prefix.pch */,
 				7976ECB31B838F93005FC141 /* Info.plist */,
 				7976ECB41B838F93005FC141 /* main.m */,
 			);
@@ -200,19 +414,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		797DF2A11B8CA75700617C58 /* Activity */ = {
-			isa = PBXGroup;
-			children = (
-				797DF2A21B8CA75700617C58 /* Activity.storyboard */,
-				797DF2A31B8CA75700617C58 /* MHDActivityViewController.h */,
-				797DF2A41B8CA75700617C58 /* MHDActivityViewController.m */,
-			);
-			path = Activity;
-			sourceTree = "<group>";
-		};
 		797DF2AB1B8CB71F00617C58 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AE40CEE61C71C1F90072A125 /* Model */,
 				797DF2AC1B8CB74600617C58 /* UI */,
 			);
 			path = Base;
@@ -221,56 +426,100 @@
 		797DF2AC1B8CB74600617C58 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				797DF2AD1B8CB76000617C58 /* MHDTableViewController.h */,
-				797DF2AE1B8CB76000617C58 /* MHDTableViewController.m */,
+				C4FD44341C7476E300023C13 /* FontStandard */,
+				A92A71321BC12743000034E9 /* MHDTabbarView.h */,
+				A92A71331BC12743000034E9 /* MHDTabbarView.m */,
+				628822201BC63C5900904B90 /* MHDBasicController.h */,
+				628822211BC63C5900904B90 /* MHDBasicController.m */,
+				AE8F6D271C6A05820028D290 /* MHDBaseViewController.h */,
+				AE8F6D281C6A05820028D290 /* MHDBaseViewController.m */,
+				AE8F6D3D1C7185030028D290 /* MHDTableViewViewController.h */,
+				AE8F6D3E1C7185030028D290 /* MHDTableViewViewController.m */,
+				AE8F6D461C719FD20028D290 /* MHDTableCell.h */,
+				AE8F6D471C719FD20028D290 /* MHDTableCell.m */,
+				AE40CECF1C71AEC30072A125 /* MHDNavigationViewController.h */,
+				AE40CED01C71AEC30072A125 /* MHDNavigationViewController.m */,
+				C4FD443C1C75975600023C13 /* MHDView.h */,
+				C4FD443D1C75975600023C13 /* MHDView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		79D3E4EC1B8A13300077EFA3 /* Module */ = {
+		AE40CED21C71BE930072A125 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				79674CE41BB456EC005E560F /* Test */,
-				797DF2A11B8CA75700617C58 /* Activity */,
-				79D3E4F21B8A14CF0077EFA3 /* Mine */,
-				79D3E4EE1B8A13990077EFA3 /* Main */,
-				79D3E4ED1B8A13300077EFA3 /* Search */,
+				AE40CEED1C71E0B90072A125 /* MHDMainController.h */,
+				AE40CEEE1C71E0B90072A125 /* MHDMainController.m */,
 			);
-			path = Module;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		79D3E4ED1B8A13300077EFA3 /* Search */ = {
+		AE40CED31C71BE930072A125 /* IO */ = {
 			isa = PBXGroup;
 			children = (
-				79D3E4F51B8A15160077EFA3 /* Search.storyboard */,
-				797DF2B01B8CB7A200617C58 /* MHDSearchTableViewController.h */,
-				797DF2B11B8CB7A200617C58 /* MHDSearchTableViewController.m */,
 			);
-			path = Search;
+			path = IO;
 			sourceTree = "<group>";
 		};
-		79D3E4EE1B8A13990077EFA3 /* Main */ = {
+		AE40CED41C71BE930072A125 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79D3E4EF1B8A13990077EFA3 /* MHDTabBarViewController.h */,
-				79D3E4F01B8A13990077EFA3 /* MHDTabBarViewController.m */,
+				AE40CEEA1C71C3550072A125 /* MentalAdModel.h */,
+				AE40CEEB1C71C3550072A125 /* MentalAdModel.m */,
 			);
-			path = Main;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		79D3E4F21B8A14CF0077EFA3 /* Mine */ = {
+		AE40CED51C71BE930072A125 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				79D3E4FE1B8A164D0077EFA3 /* Mine.storyboard */,
-				79D3E5001B8A167C0077EFA3 /* MHDMineViewController.h */,
-				79D3E5011B8A167C0077EFA3 /* MHDMineViewController.m */,
+				C4FD443B1C7596FA00023C13 /* View */,
+				AE40CED61C71BE930072A125 /* Cell */,
+				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
+				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
+				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
 			);
-			path = Mine;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AE40CED61C71BE930072A125 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CED71C71BE930072A125 /* MHDMainCell.h */,
+				AE40CED81C71BE930072A125 /* MHDMainCell.m */,
+				AE40CED91C71BE930072A125 /* MHDMainCell.xib */,
+				C4FD44441C759DFF00023C13 /* MHDCityCell.h */,
+				C4FD44451C759DFF00023C13 /* MHDCityCell.m */,
+				C4FD44471C759E1C00023C13 /* MHDCityCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE40CEE61C71C1F90072A125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CEE71C71C2140072A125 /* MHDModel.h */,
+				AE40CEE81C71C2140072A125 /* MHDModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE8F6D2A1C6A06120028D290 /* MHDMain */ = {
+			isa = PBXGroup;
+			children = (
+				AE40CED21C71BE930072A125 /* Controller */,
+				AE40CED31C71BE930072A125 /* IO */,
+				AE40CED41C71BE930072A125 /* Model */,
+				AE40CED51C71BE930072A125 /* UI */,
+			);
+			path = MHDMain;
 			sourceTree = "<group>";
 		};
 		B562A5BA3499D5083E79FF75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6288227F1BC662D400904B90 /* libsqlite3.dylib */,
+				6288227D1BC662AE00904B90 /* SBModule.framework */,
 				79AF9ED61BB313D600D6AC08 /* libresolv.dylib */,
 				79AF9ED41BB313C300D6AC08 /* libxml2.dylib */,
 				79AF9ED21BB313BD00D6AC08 /* libxml2.2.dylib */,
@@ -286,6 +535,28 @@
 				5AA30F1BCB03ADA8D4BCF2AC /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FD44341C7476E300023C13 /* FontStandard */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD44351C7476E300023C13 /* UIView+FontStandard.h */,
+				C4FD44361C7476E300023C13 /* UIView+FontStandard.m */,
+			);
+			path = FontStandard;
+			sourceTree = "<group>";
+		};
+		C4FD443B1C7596FA00023C13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD443F1C75978B00023C13 /* MHDCityView.h */,
+				C4FD44401C75978B00023C13 /* MHDCityView.m */,
+				C4FD44421C75979800023C13 /* MHDCityView.xib */,
+				C44BF21A1C7DC3BE0061CF69 /* MHDSearchConsultantView.h */,
+				C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */,
+				C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F90E30CEA46F67C03CCB9A50 /* Pods */ = {
@@ -379,13 +650,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7976ECBE1B838F93005FC141 /* Main.storyboard in Resources */,
-				797DF2A51B8CA75700617C58 /* Activity.storyboard in Resources */,
-				7976ECC31B838F93005FC141 /* LaunchScreen.xib in Resources */,
-				79D3E4FF1B8A164D0077EFA3 /* Mine.storyboard in Resources */,
-				79D3E4F61B8A15160077EFA3 /* Search.storyboard in Resources */,
-				79674CE61BB45701005E560F /* Test.storyboard in Resources */,
+				C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */,
+				622529871BC8E01F0006D876 /* cuimian.png in Resources */,
+				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
+				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
+				AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */,
+				C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
+				622529801BC8B6F80006D876 /* docHead.jpg in Resources */,
+				AE40CEDE1C71BE930072A125 /* MHDMainCell.xib in Resources */,
+				C4FD44481C759E1C00023C13 /* MHDCityCell.xib in Resources */,
+				622529821BC8B9710006D876 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,15 +711,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D3E4F11B8A13990077EFA3 /* MHDTabBarViewController.m in Sources */,
-				79D3E5021B8A167C0077EFA3 /* MHDMineViewController.m in Sources */,
-				7976ECBB1B838F93005FC141 /* ViewController.m in Sources */,
-				797DF2AF1B8CB76000617C58 /* MHDTableViewController.m in Sources */,
+				628822301BC6538100904B90 /* MHDTestController.m in Sources */,
+				AE40CEEC1C71C3550072A125 /* MentalAdModel.m in Sources */,
+				6225299D1BC90C2B0006D876 /* MHDActivityDetailTableView.m in Sources */,
+				6288224A1BC65F3200904B90 /* MHDActivityDetailController.m in Sources */,
+				6225298E1BC8E1FE0006D876 /* MHDDocDetailHeadView.m in Sources */,
+				6225298B1BC8E1370006D876 /* MHDDocDetailController.m in Sources */,
+				6225299A1BC90C130006D876 /* MHDActivityDetailHeadView.m in Sources */,
+				AE40CED11C71AEC30072A125 /* MHDNavigationViewController.m in Sources */,
+				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
+				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
+				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
+				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
+				C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */,
+				C4FD44461C759DFF00023C13 /* MHDCityCell.m in Sources */,
+				7976ECBB1B838F93005FC141 /* MHDTransitionController.m in Sources */,
+				AE40CEDD1C71BE930072A125 /* MHDMainCell.m in Sources */,
+				C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */,
+				626759B71BC7AFFE00E8A52C /* MHDDocTableView.m in Sources */,
+				626759B41BC795C200E8A52C /* MHDDocListController.m in Sources */,
+				A92A71341BC12743000034E9 /* MHDTabbarView.m in Sources */,
+				622529941BC8E3490006D876 /* MHDDocDetailTableViewCell.m in Sources */,
+				628822861BC664AD00904B90 /* MHDActivityTableCell.m in Sources */,
+				628822361BC653AD00904B90 /* MHDFindDocController.m in Sources */,
+				628822221BC63C5900904B90 /* MHDBasicController.m in Sources */,
+				AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */,
+				C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */,
+				622529A31BC90C7D0006D876 /* MHDActivityDetailBottomView.m in Sources */,
+				628822331BC6538D00904B90 /* MHDFindController.m in Sources */,
+				AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */,
+				622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */,
+				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
+				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
+				AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */,
+				AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */,
+				C4FD443E1C75975600023C13 /* MHDView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
-				797DF2A61B8CA75700617C58 /* MHDActivityViewController.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
-				797DF2B21B8CB7A200617C58 /* MHDSearchTableViewController.m in Sources */,
-				79674CE91BB4578E005E560F /* MHDTestViewController.m in Sources */,
+				AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,25 +769,6 @@
 			targetProxy = 7976ECC91B838F93005FC141 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7976ECBC1B838F93005FC141 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7976ECBD1B838F93005FC141 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7976ECC11B838F93005FC141 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7976ECC21B838F93005FC141 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7976ECD01B838F93005FC141 /* Debug */ = {
@@ -567,10 +852,14 @@
 			baseConfigurationReference = F71423E4D83B1C296707E4A1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
+					"$(PROJECT_DIR)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MentalHealthDoctor/MHDModule-Prefix.pch";
 				INFOPLIST_FILE = MentalHealthDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,10 +871,14 @@
 			baseConfigurationReference = 9CF58537E1DE650E4A0C1B05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
+					"$(PROJECT_DIR)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MentalHealthDoctor/MHDModule-Prefix.pch";
 				INFOPLIST_FILE = MentalHealthDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

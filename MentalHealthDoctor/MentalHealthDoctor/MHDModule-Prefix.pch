@@ -1,0 +1,17 @@
+//
+//  SBNewsModule-Prefix.pch
+//  SBNewsModule
+//
+//  Created by jf on 15/2/25.
+//  Copyright (c) 2015年 thomas. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Common/UIImage+TPCategory.h>
+#import <Common/UIColor+TPCategory.h>
+#import <Common/CommonDefine.h>
+#import <SBModule/SBCONSTANT.h>
+#import <Common/UIImageView+SDWebImage.h>
+#import <Masonry.h>
+#endif
