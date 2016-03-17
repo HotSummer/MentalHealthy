@@ -10,4 +10,6 @@
 
 @interface MHDSearchConsultantView : MHDView
 
+- (void)recoverInitView;
+
 @end

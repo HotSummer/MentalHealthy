@@ -147,6 +147,7 @@ MHDCityDelegate
 
 - (void)addSubSearchConsultantView{
     [self.view addSubview:self.searchConsultantView];
+    [self.searchConsultantView recoverInitView];
     [self.searchConsultantView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@150);
         make.width.equalTo(@280);
@@ -171,6 +172,7 @@ MHDCityDelegate
     }else{
         [self addSubFlurView];
         [self addSubSearchConsultantView];
+        
         [self.view bringSubviewToFront:_btnSearch];
         fRotate = M_PI_4;
     }
