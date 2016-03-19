@@ -11,9 +11,13 @@
 @interface MHDSearchConsultantView ()
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
 @property (weak, nonatomic) IBOutlet UIView *viewSep;
+@property (weak, nonatomic) IBOutlet UILabel *lblLeft;
 @property (weak, nonatomic) IBOutlet UIView *viewLeft;
+@property (weak, nonatomic) IBOutlet UILabel *lblRight;
 @property (weak, nonatomic) IBOutlet UIView *viewRight;
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *layoutConstraintLeftEquipRight;
+@property (weak, nonatomic) IBOutlet UITextField *txtfieldLeft;
+@property (weak, nonatomic) IBOutlet UITextField *txtfieldRight;
 
 - (IBAction)didPressedBtnSearchPerson:(id)sender;
 - (IBAction)didPressedBtnAboutMe:(id)sender;
@@ -35,7 +39,27 @@
     return searchView;
 }
 
+- (void)sz_setInit{
+    [_txtfieldLeft setValue:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    [_txtfieldRight setValue:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0] forKeyPath:@"_placeholderLabel.textColor"];
+    
+    UITapGestureRecognizer *tapGestureLeft = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didPressedLeft:)];
+    [_viewLeft addGestureRecognizer:tapGestureLeft];
+    
+    UITapGestureRecognizer *tapGestureRight = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didPressedRight:)];
+    [_viewRight addGestureRecognizer:tapGestureRight];
+}
+
+- (void)didPressedLeft:(UIGestureRecognizer *)gesture{
+    [_txtfieldLeft resignFirstResponder];
+}
+
+- (void)didPressedRight:(UIGestureRecognizer *)gesture{
+    [_txtfieldRight resignFirstResponder];
+}
+
 - (IBAction)didPressedBtnSearchPerson:(id)sender {
+    
     [self removeConstraint:_layoutConstraintLeftEquipRight];
     [_viewLeft mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(_lblTitle.mas_bottom);
@@ -54,10 +78,16 @@
     [UIView animateWithDuration:0.3f animations:^{
         _viewRight.alpha = 0;
         [self layoutIfNeeded];
+        _txtfieldLeft.hidden = NO;
+        _lblLeft.hidden = YES;
+        [_txtfieldLeft becomeFirstResponder];
     }];
 }
 
 - (IBAction)didPressedBtnAboutMe:(id)sender {
+    _txtfieldRight.hidden = NO;
+    _lblRight.hidden = YES;
+    [_txtfieldRight becomeFirstResponder];
     [self removeConstraint:_layoutConstraintLeftEquipRight];
     [_viewLeft mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(_lblTitle.mas_bottom);
@@ -80,6 +110,12 @@
 }
 
 - (void)recoverInitView{
+    _txtfieldLeft.hidden = YES;
+    _lblLeft.hidden = NO;
+    _txtfieldRight.hidden = YES;
+    _lblRight.hidden = NO;
+    [_txtfieldLeft resignFirstResponder];
+    [_txtfieldRight resignFirstResponder];
     if (![self.constraints containsObject:_layoutConstraintLeftEquipRight]) {
         [_viewLeft mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(_lblTitle.mas_bottom);

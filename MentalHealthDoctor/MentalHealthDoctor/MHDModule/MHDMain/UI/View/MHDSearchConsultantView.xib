@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -58,16 +59,29 @@
                                 <action selector="didPressedBtnSearchPerson:" destination="iN0-l3-epB" eventType="touchUpInside" id="tcX-Re-ZzH"/>
                             </connections>
                         </button>
+                        <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="直接搜索咨询师和工作室的名称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wE0-s6-hcO">
+                            <rect key="frame" x="45" y="284" width="210" height="30"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Oxm-9a-v5H"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                     </subviews>
                     <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="BkD-3P-7fV" firstAttribute="top" secondItem="I4b-fx-0a6" secondAttribute="bottom" constant="7.5" id="5hg-9m-Ant"/>
+                        <constraint firstItem="wE0-s6-hcO" firstAttribute="trailing" secondItem="YDt-nS-sMV" secondAttribute="trailing" constant="-45" id="FAu-zf-TLG"/>
                         <constraint firstItem="BkD-3P-7fV" firstAttribute="centerX" secondItem="I4b-fx-0a6" secondAttribute="centerX" id="Khl-OI-oMw"/>
                         <constraint firstItem="7Nn-mo-9vh" firstAttribute="trailing" secondItem="I4b-fx-0a6" secondAttribute="trailing" id="Lse-Gp-Ald"/>
+                        <constraint firstItem="wE0-s6-hcO" firstAttribute="leading" secondItem="YDt-nS-sMV" secondAttribute="leading" constant="45" id="REr-O3-AoW"/>
                         <constraint firstItem="7Nn-mo-9vh" firstAttribute="leading" secondItem="I4b-fx-0a6" secondAttribute="leading" id="SLc-zt-GXH"/>
                         <constraint firstItem="I4b-fx-0a6" firstAttribute="centerY" secondItem="YDt-nS-sMV" secondAttribute="centerY" constant="-20" id="XQS-wF-pmg"/>
                         <constraint firstItem="7Nn-mo-9vh" firstAttribute="bottom" secondItem="I4b-fx-0a6" secondAttribute="bottom" id="cGV-U3-vYo"/>
+                        <constraint firstItem="BkD-3P-7fV" firstAttribute="top" secondItem="wE0-s6-hcO" secondAttribute="top" id="eem-mn-ldN"/>
                         <constraint firstItem="I4b-fx-0a6" firstAttribute="centerX" secondItem="YDt-nS-sMV" secondAttribute="centerX" id="k0l-o4-m4y"/>
                         <constraint firstItem="7Nn-mo-9vh" firstAttribute="top" secondItem="I4b-fx-0a6" secondAttribute="top" id="xLY-xd-IZM"/>
                     </constraints>
@@ -101,14 +115,27 @@
                                 <action selector="didPressedBtnAboutMe:" destination="iN0-l3-epB" eventType="touchUpInside" id="T4t-Vm-tgM"/>
                             </connections>
                         </button>
+                        <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="直接搜索咨询师和工作室的名称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tPK-Ba-p0y">
+                            <rect key="frame" x="45" y="284" width="210" height="30"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="0hy-qZ-0v6"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                     </subviews>
                     <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="N1I-LN-vCu" firstAttribute="centerX" secondItem="jx1-Fp-GOl" secondAttribute="centerX" id="6He-vP-b3H"/>
                         <constraint firstItem="sMb-OB-oZU" firstAttribute="trailing" secondItem="jx1-Fp-GOl" secondAttribute="trailing" id="A92-tb-u8g"/>
+                        <constraint firstItem="N1I-LN-vCu" firstAttribute="top" secondItem="tPK-Ba-p0y" secondAttribute="top" id="AXW-ZI-Ack"/>
                         <constraint firstItem="sMb-OB-oZU" firstAttribute="leading" secondItem="jx1-Fp-GOl" secondAttribute="leading" id="C4l-Fv-tBN"/>
+                        <constraint firstItem="tPK-Ba-p0y" firstAttribute="trailing" secondItem="OPE-Zv-haU" secondAttribute="trailing" constant="-45" id="LIt-Bq-mBl"/>
                         <constraint firstItem="jx1-Fp-GOl" firstAttribute="centerX" secondItem="OPE-Zv-haU" secondAttribute="centerX" id="e59-IT-e8M"/>
+                        <constraint firstItem="tPK-Ba-p0y" firstAttribute="leading" secondItem="OPE-Zv-haU" secondAttribute="leading" constant="45" id="hMh-CK-ypa"/>
                         <constraint firstItem="jx1-Fp-GOl" firstAttribute="centerY" secondItem="OPE-Zv-haU" secondAttribute="centerY" constant="-20" id="nHg-rL-KeZ"/>
                         <constraint firstItem="sMb-OB-oZU" firstAttribute="top" secondItem="jx1-Fp-GOl" secondAttribute="top" id="pZx-73-RYs"/>
                         <constraint firstItem="sMb-OB-oZU" firstAttribute="bottom" secondItem="jx1-Fp-GOl" secondAttribute="bottom" id="uyC-Om-YW4"/>
@@ -136,7 +163,11 @@
             </constraints>
             <connections>
                 <outlet property="layoutConstraintLeftEquipRight" destination="rQK-m1-Ndi" id="vC1-G7-umo"/>
+                <outlet property="lblLeft" destination="BkD-3P-7fV" id="6sN-ax-c1h"/>
+                <outlet property="lblRight" destination="N1I-LN-vCu" id="4Sg-e6-9RS"/>
                 <outlet property="lblTitle" destination="Bx1-ab-eZE" id="Kuh-bd-Uwm"/>
+                <outlet property="txtfieldLeft" destination="wE0-s6-hcO" id="5cy-iP-FJB"/>
+                <outlet property="txtfieldRight" destination="tPK-Ba-p0y" id="mKv-zJ-xmL"/>
                 <outlet property="viewLeft" destination="YDt-nS-sMV" id="8KI-Sn-HJF"/>
                 <outlet property="viewRight" destination="OPE-Zv-haU" id="ETs-UY-Fjc"/>
                 <outlet property="viewSep" destination="J8s-MX-Mex" id="Caq-gk-rKp"/>
