@@ -135,4 +135,9 @@
     }
 }
 
+#pragma mark - UITextFieldDelegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    return YES;
+}
+
 @end

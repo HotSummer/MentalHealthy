@@ -51,6 +51,38 @@
             </objects>
             <point key="canvasLocation" x="-2" y="437"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="9go-xl-E6s">
+            <objects>
+                <viewController id="WLh-pg-qDa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vtn-ZZ-YMi"/>
+                        <viewControllerLayoutGuide type="bottom" id="JUd-3R-Reh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hCi-MD-XJq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tS2-2f-bju" customClass="SwipeView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JUd-3R-Reh" firstAttribute="top" secondItem="tS2-2f-bju" secondAttribute="bottom" id="Pgk-k8-eqz"/>
+                            <constraint firstAttribute="trailing" secondItem="tS2-2f-bju" secondAttribute="trailing" id="Yg7-CP-emc"/>
+                            <constraint firstItem="tS2-2f-bju" firstAttribute="top" secondItem="hCi-MD-XJq" secondAttribute="top" id="dRO-QV-wBI"/>
+                            <constraint firstItem="tS2-2f-bju" firstAttribute="leading" secondItem="hCi-MD-XJq" secondAttribute="leading" id="ptf-pE-rcl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cQe-NR-QGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="437"/>
+        </scene>
     </scenes>
     <resources>
         <image name="main_search" width="65" height="65"/>

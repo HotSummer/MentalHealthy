@@ -66,6 +66,7 @@
 		AE8F6D481C719FD20028D290 /* MHDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F6D471C719FD20028D290 /* MHDTableCell.m */; };
 		C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */; };
 		C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */; };
+		C4DAE2411CAACEEA00ACB6AF /* MHDConsultantResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */; };
 		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
 		C4FD443E1C75975600023C13 /* MHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD443D1C75975600023C13 /* MHDView.m */; };
 		C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44401C75978B00023C13 /* MHDCityView.m */; };
@@ -183,6 +184,8 @@
 		C44BF21A1C7DC3BE0061CF69 /* MHDSearchConsultantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDSearchConsultantView.h; sourceTree = "<group>"; };
 		C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDSearchConsultantView.m; sourceTree = "<group>"; };
 		C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDSearchConsultantView.xib; sourceTree = "<group>"; };
+		C4DAE23F1CAACEEA00ACB6AF /* MHDConsultantResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDConsultantResultViewController.h; sourceTree = "<group>"; };
+		C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDConsultantResultViewController.m; sourceTree = "<group>"; };
 		C4FD44351C7476E300023C13 /* UIView+FontStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontStandard.h"; sourceTree = "<group>"; };
 		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
 		C4FD443C1C75975600023C13 /* MHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDView.h; sourceTree = "<group>"; };
@@ -478,6 +481,8 @@
 				AE40CEDA1C71BE930072A125 /* Main.storyboard */,
 				AE40CEDB1C71BE930072A125 /* MHDMainTableViewViewController.h */,
 				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
+				C4DAE23F1CAACEEA00ACB6AF /* MHDConsultantResultViewController.h */,
+				C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -748,6 +753,7 @@
 				C4FD443E1C75975600023C13 /* MHDView.m in Sources */,
 				7976ECB81B838F93005FC141 /* AppDelegate.m in Sources */,
 				7976ECB51B838F93005FC141 /* main.m in Sources */,
+				C4DAE2411CAACEEA00ACB6AF /* MHDConsultantResultViewController.m in Sources */,
 				AE8F6D291C6A05820028D290 /* MHDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

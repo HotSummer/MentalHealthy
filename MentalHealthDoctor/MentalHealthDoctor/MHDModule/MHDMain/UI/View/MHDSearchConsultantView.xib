@@ -67,7 +67,10 @@
                             </constraints>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="t6d-8X-yjA"/>
+                            </connections>
                         </textField>
                     </subviews>
                     <animations/>
@@ -123,7 +126,10 @@
                             </constraints>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="Jmb-oD-rw3"/>
+                            </connections>
                         </textField>
                     </subviews>
                     <animations/>

@@ -9,6 +9,9 @@
 #import "MHDView.h"
 
 @interface MHDSearchConsultantView : MHDView
+<
+UITextFieldDelegate
+>
 
 - (void)recoverInitView;
 
