@@ -11,7 +11,7 @@
 #import "MHDActivityController.h"
 #import "MHDMainTableViewViewController.h"
 #import "MHDNavigationViewController.h"
-
+#import "TableTestViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,9 +25,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
+    
+    NSDecimalNumber *fNumber = [NSDecimalNumber zero];//[NSDecimalNumber decimalNumberWithString:nil];
+    NSDecimalNumber *jiafa2 = [NSDecimalNumber decimalNumberWithString:@"0.11111"];
+
+    NSDecimalNumber *jiafa = [fNumber decimalNumberByAdding:jiafa2];
 //    MHDActivityController *transitionControl = [[MHDActivityController alloc] init];
 //    UINavigationController *rootNavigation = [[UINavigationController alloc] initWithRootViewController:transitionControl];
-    MHDMainTableViewViewController *mainVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MHDMainTableViewViewControllerStoryboardId"];
+    TableTestViewController *mainVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"TableTestViewControllerStoryboardId"];
     MHDNavigationViewController *nav = [[MHDNavigationViewController alloc] initWithRootViewController:mainVC];
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];

@@ -67,6 +67,9 @@
 		C44BF21C1C7DC3BE0061CF69 /* MHDSearchConsultantView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44BF21B1C7DC3BE0061CF69 /* MHDSearchConsultantView.m */; };
 		C44BF21E1C7DC3D90061CF69 /* MHDSearchConsultantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */; };
 		C4DAE2411CAACEEA00ACB6AF /* MHDConsultantResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */; };
+		C4E8B7E11CFECF5E006A134E /* TableTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B7E01CFECF5E006A134E /* TableTestViewController.m */; };
+		C4E8B7E41CFECFCC006A134E /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B7E31CFECFCC006A134E /* TestCell.m */; };
+		C4E8B7E61CFECFD9006A134E /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E8B7E51CFECFD9006A134E /* TestCell.xib */; };
 		C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44361C7476E300023C13 /* UIView+FontStandard.m */; };
 		C4FD443E1C75975600023C13 /* MHDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD443D1C75975600023C13 /* MHDView.m */; };
 		C4FD44411C75978B00023C13 /* MHDCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD44401C75978B00023C13 /* MHDCityView.m */; };
@@ -186,6 +189,11 @@
 		C44BF21D1C7DC3D90061CF69 /* MHDSearchConsultantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDSearchConsultantView.xib; sourceTree = "<group>"; };
 		C4DAE23F1CAACEEA00ACB6AF /* MHDConsultantResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDConsultantResultViewController.h; sourceTree = "<group>"; };
 		C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDConsultantResultViewController.m; sourceTree = "<group>"; };
+		C4E8B7DF1CFECF5E006A134E /* TableTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTestViewController.h; sourceTree = "<group>"; };
+		C4E8B7E01CFECF5E006A134E /* TableTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTestViewController.m; sourceTree = "<group>"; };
+		C4E8B7E21CFECFCC006A134E /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		C4E8B7E31CFECFCC006A134E /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		C4E8B7E51CFECFD9006A134E /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 		C4FD44351C7476E300023C13 /* UIView+FontStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontStandard.h"; sourceTree = "<group>"; };
 		C4FD44361C7476E300023C13 /* UIView+FontStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontStandard.m"; sourceTree = "<group>"; };
 		C4FD443C1C75975600023C13 /* MHDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDView.h; sourceTree = "<group>"; };
@@ -483,6 +491,8 @@
 				AE40CEDC1C71BE930072A125 /* MHDMainTableViewViewController.m */,
 				C4DAE23F1CAACEEA00ACB6AF /* MHDConsultantResultViewController.h */,
 				C4DAE2401CAACEEA00ACB6AF /* MHDConsultantResultViewController.m */,
+				C4E8B7DF1CFECF5E006A134E /* TableTestViewController.h */,
+				C4E8B7E01CFECF5E006A134E /* TableTestViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -496,6 +506,9 @@
 				C4FD44441C759DFF00023C13 /* MHDCityCell.h */,
 				C4FD44451C759DFF00023C13 /* MHDCityCell.m */,
 				C4FD44471C759E1C00023C13 /* MHDCityCell.xib */,
+				C4E8B7E21CFECFCC006A134E /* TestCell.h */,
+				C4E8B7E31CFECFCC006A134E /* TestCell.m */,
+				C4E8B7E51CFECFD9006A134E /* TestCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -660,6 +673,7 @@
 				628822401BC658E000904B90 /* sb_nav_back@2x.png in Resources */,
 				628822411BC658E000904B90 /* sb_nav_back_blue@2x.png in Resources */,
 				AE40CEDF1C71BE930072A125 /* Main.storyboard in Resources */,
+				C4E8B7E61CFECFD9006A134E /* TestCell.xib in Resources */,
 				C4FD44431C75979800023C13 /* MHDCityView.xib in Resources */,
 				7976ECC01B838F93005FC141 /* Images.xcassets in Resources */,
 				622529801BC8B6F80006D876 /* docHead.jpg in Resources */,
@@ -727,6 +741,7 @@
 				622529A01BC90C680006D876 /* MHDActivityDetailTableViewCell.m in Sources */,
 				626759BA1BC7B03600E8A52C /* MHDDocTableViewCell.m in Sources */,
 				6288224B1BC65F3200904B90 /* MHDActivityController.m in Sources */,
+				C4E8B7E11CFECF5E006A134E /* TableTestViewController.m in Sources */,
 				AE40CEEF1C71E0B90072A125 /* MHDMainController.m in Sources */,
 				C4FD44371C7476E300023C13 /* UIView+FontStandard.m in Sources */,
 				C4FD44461C759DFF00023C13 /* MHDCityCell.m in Sources */,
@@ -747,6 +762,7 @@
 				AE40CEE01C71BE930072A125 /* MHDMainTableViewViewController.m in Sources */,
 				622529971BC8E36A0006D876 /* MHDDocDetailTableView.m in Sources */,
 				628822391BC653C500904B90 /* MHDMineController.m in Sources */,
+				C4E8B7E41CFECFCC006A134E /* TestCell.m in Sources */,
 				628822831BC6643A00904B90 /* MHDActivityTableView.m in Sources */,
 				AE40CEE91C71C2140072A125 /* MHDModel.m in Sources */,
 				AE8F6D3F1C7185030028D290 /* MHDTableViewViewController.m in Sources */,
